@@ -3,6 +3,7 @@
 			<div class="container-footer">
 			<ul class="footer-socialMedia">
 					<li><a href=""><img src="../assets/img/icone-linkedin.svg" alt=""></a></li>
+					<li><a href=""><img src="../assets/img/icone-facebook.svg" alt=""></a></li>
 				</ul>
 				<ul class="footer-navigation">
 					<li><a href="../view/qui.php">Qui sommes-nous ? </a></li>
@@ -12,7 +13,7 @@
 				</ul>
 			<ul class="footer-mention">
 				<li><a href="../view/mention.php">Mention légales</a></li>
-				<li><a href="">CGV / CGU</a></li>
+				<li><a href="" download="cgvcgu.pdf">CGV / CGU</a></li>
 			</ul>
 			</div>
 		</div>

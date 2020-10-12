@@ -40,8 +40,9 @@ html, body {
     border: none;
     scroll-behavior: smooth;
 }
+
 .bodystyle {
-    overflow: hidden;   
+    overflow: hidden;
 }
 
 a.btn {
@@ -66,197 +67,6 @@ a.btn {
 a.btn:hover {
     background-color: #fab277;
 }
-/* 
-nav#navbar {
-    display: flex;
-    width: 100%;
-    background-color: white;
-    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.226);
-    z-index: 50;
-    position: sticky;
-    top: 0;
-}
-
-nav#navbar div#container-navbar {
-    width: 80%;
-    display: flex;
-    margin: 0 auto;
-}
-
-nav#navbar div#container-navbar div#logo-navbar {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-}
-
-nav#navbar div#container-navbar div#logo-navbar img {
-    width: 100px;
-    height: 100px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-nav#navbar div#container-navbar ul#navbar-link {
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-nav#navbar div#container-navbar ul#navbar-link li {
-    list-style: none;
-    font-weight: 600;
-    margin: 0px 30px;
-}
-
-nav#navbar div#container-navbar ul#navbar-link li a {
-    list-style: none;
-    font-weight: bold;
-    text-decoration: none;
-    color: #363636;
-    font-size: 16px;
-    text-transform: uppercase;
-}
-
-nav#navbar div#container-navbar ul#navbar-link li a.btn-account {
-    background-color: white;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.226);
-}
-
-nav#navbar div#container-navbar ul#navbar-link li a.btn-account img {
-    width: 20px;
-    height: 20px;
-}
-
-nav#navbar div#container-navbar .container-burger {
-    width: 80%;
-    display: none;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 50px;
-}
-
-nav#navbar div#container-navbar .container-burger a {
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.226);
-}
-
-nav#navbar div#container-navbar .container-burger a img {
-    width: 30px;
-    height: 30px;
-    background-size: contain;
-}
-
-#container-menuMobile {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: 100;
-    right: -100%;
-    background-color: white;
-}
-
-#container-menuMobile .container-logo {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    flex-direction: row;
- 
-}
-
-#container-menuMobile .container-logo .logo {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#container-menuMobile .container-logo .logo img {
-    width: 100px;
-    height: 100px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0 auto;
-}
-
-#container-menuMobile .container-logo .btn-closeMenu {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#container-menuMobile .container-logo .btn-closeMenu a#burger-closeResponsiveMenu {
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.226);
-    border-radius:50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#container-menuMobile .container-logo .btn-closeMenu img  {
-    width: 30px;
-    height: 30px;
-    background-size: contain;
-}
-
-#container-menuMobile .menu-responsive {
-    width: 100%;
-    height: 70%;
-    text-align: center;
-}
-#container-menuMobile .menu-responsive ul {
- width: 80%;
- height: 100%;
- margin: 0 auto;
- display: flex;
- justify-content: space-evenly;
- flex-direction: column;
-}
-#container-menuMobile .menu-responsive ul li{
- list-style: none;
-}
-#container-menuMobile .menu-responsive ul li a{
- color: black;
- display: inline-block;
- text-decoration: none;
- font-size:20px;
- font-weight:600;
-}
-#container-menuMobile .infoContact {
-    width: 100%;
-    height:10%;
-    text-align: center;
-}
-#container-menuMobile .infoContact ul {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-#container-menuMobile .infoContact ul li {
-   color:#f4A261;
-   list-style: none;
-   font-weight: 500;
-   font-size: 20px;
-} */
 
 
 section#presentation {
@@ -334,7 +144,7 @@ section#prestation div.container-prestation {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    padding: 50px 0px;
+    padding: 100px 0px;
 }
 
 section#prestation div.container-prestation .right-prestation {
@@ -588,7 +398,7 @@ section#info div#container-info {
 section#info div#container-info .btn-infos {
     display: flex;
     justify-content: center;
-    width:50%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -614,53 +424,77 @@ section#responsive-apps {
     width: 70%;
     padding: 100px 0px;
     margin: 0 auto;
+ 
 }
 
-
-#responsive-apps .list-responsive h2{
-    text-align:center ;
+#responsive-apps .list-responsive h2 {
+    text-align: center;
     color: #F4A261;
     font-size: 30px;
-     margin: 0 auto;
-     text-transform: uppercase;
- }
-#responsive-apps .list-responsive .responsive-module{
-    width: 80%;
-    margin: 50px auto;
-    display: flex;
-    align-items: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    position: relative;
 }
-#responsive-apps .list-responsive .responsive-module .left-responsive{
-    width: 30%;
+#responsive-apps .list-responsive h2:after {
+    content: "";
+    height: 2px;
+    background-color: #e7e7e6;
+    margin: 0 auto;
+    width: 40%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -45px;
+}
 
+#responsive-apps .list-responsive .responsive-module {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
 }
+
+#responsive-apps .list-responsive .responsive-module .left-responsive {
+    width: 30%;
+}
+
 #responsive-apps .list-responsive .responsive-module .left-responsive .container-img {
     background-color: white;
     box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.226);
     border-radius: 5%;
-    width: 200px ;
-   height: 200px;
-   margin: 0 auto;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#responsive-apps .list-responsive .responsive-module .left-responsive .container-img img{
-   width: 150px ;
-   height: 150px;
-   margin: 0 auto;
-
-   padding: 10px;
+#responsive-apps .list-responsive .responsive-module .left-responsive .container-img img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px;
 }
-#responsive-apps .list-responsive .responsive-module .right-responsive{
+
+#responsive-apps .list-responsive .responsive-module .right-responsive {
     width: 70%;
     margin: 0 auto;
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
-#responsive-apps .list-responsive .responsive-module .right-responsive img{
-    width: 100%;
-    margin: 0 auto;
+
+#responsive-apps .list-responsive .responsive-module .right-responsive h3 {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    color: #F4A261;
+    font-size: 20px;
+}
+
+#responsive-apps .list-responsive .responsive-module .right-responsive p {
+    margin-bottom: 25px;
+
 }
 
 div.container-contact {
@@ -767,12 +601,7 @@ div.container-contact #container-form form button.btn-contact-form {
 }
 
 @media screen and (max-width:768px) {
-    nav#navbar div#container-navbar ul#navbar-link {
-        display: none;
-    }
-    nav#navbar div#container-navbar .container-burger {
-        display: flex;
-    }
+   
     section#presentation div#container-presentation {
         flex-wrap: wrap;
         padding: 100px 0px 150px 0px;
@@ -783,12 +612,25 @@ div.container-contact #container-form form button.btn-contact-form {
         display: block;
         margin: 0;
     }
+    
     section#presentation div#container-presentation div.left-pres img {
         width: 60%;
     }
     section#presentation div#container-presentation div.right-pres {
         width: 100%;
         margin: 20px 0;
+    }
+    section#presentation div#container-presentation div.right-pres h1{
+        margin-left: 0;
+    }
+    section#presentation div#container-presentation div.right-pres p{
+        margin-left: 0;
+    }
+    section#presentation div#container-presentation div.right-pres h2{
+        margin-left: 0;
+    }
+    section#presentation div#container-presentation div.right-pres .container-btn{
+        margin-left: 0;
     }
     section#prestation div.container-prestation .left-prestation {
         width: 100%;
@@ -808,37 +650,52 @@ div.container-contact #container-form form button.btn-contact-form {
     section#prestation div.container-prestation div.listmodule {
         order: 3;
     }
-    section#prestation .container-prestation .global-container-commentary{
+    section#prestation div.container-prestation div.listmodule .module {
+        width: calc(100% - 20px);
+        margin: 10px;
+        }
+    section#prestation .container-prestation .global-container-commentary {
         order: 4;
     }
     section#prestation .container-prestation .container .container-commentary {
         margin: 10px auto;
     }
     section#prestation .container-prestation .container .container-commentary .commentary-wrapper .commentary-stucture {
-        width: 50%;
+        width: 70%;
         height: 350px;
     }
-    section#info div#container-info{
+    section#info div#container-info {
         padding: 40px 0px;
     }
     #responsive-apps .list-responsive .responsive-module {
         flex-direction: column;
         text-align: center;
-   
+        margin: 50px auto;
     }
-    #responsive-apps .list-responsive .responsive-module .left-responsive{
+    #responsive-apps .list-responsive .responsive-module .left-responsive {
         width: 100%;
     }
-    #responsive-apps .list-responsive .responsive-module .right-responsive{
+    #responsive-apps .list-responsive h2:after {
+   display: none;
+    }
+    #responsive-apps .list-responsive .responsive-module .right-responsive {
         width: 80%;
-        margin: 0 auto;
-        margin-left:inherit;
+        margin: 0px auto;
+        margin-left: inherit;
         margin-top: 50px;
     }
-
+ 
 }
 
-@media screen and (max-width:425px) {}
+@media screen and (max-width:425px) {
+   
+    section#prestation .container-prestation .container #click-after {
+        right: 0;
+    }
+    section#prestation .container-prestation .container #click-before {
+        left: 0;
+    }
+}
 
 @media screen and (max-width:375px) {}
 

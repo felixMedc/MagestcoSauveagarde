@@ -1,0 +1,149 @@
+@charset "utf-8";
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+div, header, nav, article, section, aside, footer, h1, h2, h3, h4, h5, h6, p, a, ul, li, figure, figcaption, class, img {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+main {
+    overflow: hidden;
+}
+
+img, object, embed, canvas, video, audio, picture, svg {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    border: 0 solid transparent;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.5s;
+    position: relative;
+    border: none;
+    scroll-behavior: smooth;
+}
+
+.bodystyle {
+    overflow: hidden;
+}
+
+a.btn {
+    width: 100%;
+    text-decoration: none;
+    background-color: #F4A261;
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    padding: 0 25px;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.226);
+    transition: ease-in-out 0.25s;
+}
+
+.global-containerForm {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.global-containerForm .containerForm {
+    width: 50%;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.global-containerForm .containerForm h2 {
+    color: #F4A261;
+    font-size: 30px;
+}
+
+.global-containerForm .containerForm .group-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.global-containerForm .containerForm #FormLogin .group-btn {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.global-containerForm .containerForm .group-btn a {
+    display: block;
+    margin: 10px 0px;
+    color: black;
+}
+
+.global-containerForm .containerForm #FormLogin .group-input {
+    margin: 15px 0px;
+    display: flex;
+
+    flex-direction: column;
+}
+.global-containerForm .containerForm #FormLogin .group-input .container-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.global-containerForm .containerForm #FormLogin .group-input input {
+    width: 100%;
+    margin-left: 20px;
+}
+.global-containerForm .containerForm #FormLogin .group-input .container-input img {
+    display: flex;
+    flex-direction: row;
+    width: 25px;
+    height: 25px;
+}
+.global-containerForm .containerForm #FormLogin .group-input label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.global-containerForm .containerForm #FormLogin .group-input input {
+    padding: 10px 15px;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.global-containerForm .containerForm #FormLogin .group-input .inputError {
+    color: #ec4949;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.global-containerForm .containerForm #FormLogin .group-input button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #F4A261;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}

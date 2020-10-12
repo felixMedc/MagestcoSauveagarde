@@ -192,36 +192,40 @@
 	<section id="responsive-apps">
 		<div class="list-responsive">
 			<h2>Un Site web et une application tout terrain</h2>
-				<div class="responsive-module">
-					<div class="left-responsive">
-						<div class="container-img">
+		
+			<div class="responsive-module">
+				<div class="left-responsive">
+					<div class="container-img">
 						<img src="assets/img/icone-desktop.svg" alt="">
-						</div>
-					</div>
-					<div class="right-responsive">
-					<p> Concentrez-vous sur vos activités et économisez des dépenses informatiques inutiles.<br> Ma Gestion Connectée fournit une solution constamment mise à jour, accessible partout et collaborative. </p>
 					</div>
 				</div>
-				<div class="responsive-module">
-					<div class="left-responsive">
+				<div class="right-responsive">
+					<h3>Au Bureau</h3>
+					<p> Concentrez-vous sur vos activités et économisez des dépenses informatiques inutiles.<br> Ma Gestion Connectée fournit une solution constamment mise à jour, accessible partout et collaborative. </p>
+				</div>
+			</div>
+			<div class="responsive-module">
+				<div class="left-responsive">
 					<div class="container-img">
 						<img src="assets/img/icone-direct.svg" alt="">
 					</div>
-					</div>
-					<div class="right-responsive">
-						<p> Restez connecté en permanence avec votre équipe.<br> Grâce à l’accès mobile, ils recoivent des informations en temps réel. </p>
-					</div>
 				</div>
-				<div class="responsive-module">
-					<div class="left-responsive">
+				<div class="right-responsive">
+					<h3>A L'extérieur</h3>
+					<p> Restez connecté en permanence avec votre équipe.<br> Grâce à l’accès mobile, ils recoivent des informations en temps réel. </p>
+				</div>
+			</div>
+			<div class="responsive-module">
+				<div class="left-responsive">
 					<div class="container-img">
 						<img src="assets/img/icone-mobile.svg" alt="">
 					</div>
-					</div>
-					<div class="right-responsive">
-					<p> Beaucoup d’endroits sont encore mal desservis en connexions (Zones Blanche).<br> Pour éviter de recourir à du papier dans ces zones, notre application mobile garde le lien et vous permet de réaliser l’essentiel de vos tâches. </p>
-					</div>
 				</div>
+				<div class="right-responsive">
+					<h3>Zone Blanche</h3>
+					<p> Beaucoup d’endroits sont encore mal desservis en connexions (Zones Blanche).<br> Pour éviter de recourir à du papier dans ces zones, notre application mobile garde le lien et vous permet de réaliser l’essentiel de vos tâches. </p>
+				</div>
+			</div>
 		</div>
 	</section>
 

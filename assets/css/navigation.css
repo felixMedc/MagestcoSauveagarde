@@ -99,7 +99,7 @@ nav#navbar div#container-navbar ul#navbar-link li a {
     list-style: none;
     font-weight: bold;
     text-decoration: none;
-    color: #363636;
+    color: black;
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -156,7 +156,7 @@ nav#navbar div#container-navbar .container-burger a img {
 
 #container-menuMobile .container-logo {
     width: 100%;
-    height: 10%;
+    height: 20%;
     display: flex;
     flex-direction: row;
 }
@@ -164,7 +164,8 @@ nav#navbar div#container-navbar .container-burger a img {
 #container-menuMobile .container-logo .logo {
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-left: 10px;
     align-items: center;
 }
 
@@ -181,7 +182,8 @@ nav#navbar div#container-navbar .container-burger a img {
     width: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 10px;
 }
 
 #container-menuMobile .container-logo .btn-closeMenu a#burger-closeResponsiveMenu {
@@ -203,7 +205,7 @@ nav#navbar div#container-navbar .container-burger a img {
 
 #container-menuMobile .menu-responsive {
     width: 100%;
-    height: 80%;
+    height: 70%;
     text-align: center;
 }
 
@@ -281,9 +283,24 @@ nav#navbar div#container-navbar .container-burger a img {
     nav#navbar div#container-navbar .container-burger {
         display: flex;
     }
+    #container-menuMobile .container-logo .logo img {
+        margin: inherit;
+    }
 }
 
-@media screen and (max-width:425px) {}
+@media screen and (max-width:425px) {
+    nav#navbar div#container-navbar .container-burger{
+        width: 50%;
+    }
+    nav#navbar div#container-navbar div#logo-navbar {
+        width: 50%;
+        justify-content: start;
+        margin-left: 10px;
+    }
+    nav#navbar div#container-navbar div#logo-navbar a{
+        padding: 0;
+    }
+}
 
 @media screen and (max-width:375px) {}
 
