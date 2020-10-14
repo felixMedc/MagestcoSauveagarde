@@ -20,7 +20,7 @@
             <li><a id="btn-navigation" href="#diagnostic"><img alt="" title="Diagnostic" src="../assets/img/solution/navigation/icone-diagnostic.png"></a></li>
             <li><a id="btn-navigation" href="#formation"><img alt="" title="Formation" src="../assets/img/solution/navigation/icone-formation.png"></a></li>
             <li><a id="btn-navigation" href="#rgpd"><img alt="" title="RGPD" src="../assets/img/solution/navigation/icone-rgpd.png"></a></li>
-            <li><a id="btn-navigation" href="#placements"><img alt="" title="Placements" src="../assets/img/solution/navigation/icone-placements.png"></a></li>
+            <li><a id="btn-navigation" href="#déplacements"><img alt="" title="déplacements" src="../assets/img/solution/navigation/icone-placements.png"></a></li>
             <li><a id="btn-navigation" href="#rdv"><img alt="" title="RDV" src="../assets/img/solution/navigation/icone-rdv.png"></a></li>
             <li><a id="btn-navigation" href="#materialisation" id=""><img alt="" title="Materialisation" src="../assets/img/solution/navigation/icone-materialisation.png"></a></li>
             <li><a id="btn-navigation" href="#clients"><img alt="" title="Clients" src="../assets/img/solution/navigation/icone-clients.png"></a></li>
@@ -34,7 +34,7 @@
     <section class="global-containerSolutions">
         <h2>Nos Solutions</h2>
         <div class="container-listSolutions">
-            <div class="solution" id="clients">
+            <div class="solution" id="diagnostic">
                 <div class="img-solution">
                     <img src="../assets/img/solution/test.svg" alt="">
                 </div>
@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </div>
-            <div class="solution">
+            <div class="solution" id="formation">
                 <div class="img-solution">
                     <img src="../assets/img/solution/test.svg" alt="">
                 </div>
@@ -86,7 +86,7 @@
                 </div>
             </div>
             <div class="solution" id="rgpd">
-                <div class="img-solution">
+                <div class="img-solution" id="rgpd">
                     <img src="../assets/img/solution/test.svg" alt="">
                 </div>
                 <div class="text-solution">
@@ -113,7 +113,7 @@
                     </details>
                 </div>
             </div>
-            <div class="solution" id="solutions">
+            <div class="solution" id="déplacements">
                 <div class="img-solution">
                     <img src="../assets/img/solution/test.svg" alt="">
                 </div>
@@ -137,7 +137,7 @@
                     </details>
                 </div>
             </div>
-            <div class="solution" id="solutions">
+            <div class="solution" id="rdv">
                 <div class="img-solution">
                     <img src="../assets/img/solution/test.svg" alt="">
                 </div>
@@ -161,7 +161,7 @@
                     </details>
                 </div>
             </div>
-            <div class="solution" id="solutions">
+            <div class="solution" id="materialisation">
                 <div class="img-solution">
                     <img src="../assets/img/solution/test.svg" alt="">
                 </div>
@@ -185,7 +185,7 @@
                     </details>
                 </div>
             </div>
-            <div class="solution" id="solutions">
+            <div class="solution" id="clients">
                 <div class="img-solution">
                     <img src="../assets/img/solution/test.svg" alt="">
                 </div>
@@ -209,7 +209,7 @@
                     </details>
                 </div>
             </div>
-            <div class="solution" id="solutions">
+            <div class="solution" id="pilotage">
                 <div class="img-solution">
                     <img src="../assets/img/solution/test.svg" alt="">
                 </div>
@@ -233,7 +233,7 @@
                     </details>
                 </div>
             </div>
-            <div class="solution" id="solutions">
+            <div class="solution" id="gmao">
                 <div class="img-solution">
                     <img src="../assets/img/solution/test.svg" alt="">
                 </div>
@@ -288,28 +288,8 @@
 
     <?php include '../include/include-footer.php' ?>
     <script src="../assets/js/script-responsiveMenu.js"></script>
-    <script>
-        const details = document.querySelectorAll("details");
-        details.forEach((targetDetail) => {
-            targetDetail.addEventListener("click", () => {
-                details.forEach((detail) => {
-                    if (detail !== targetDetail) {
-                        detail.removeAttribute("open");
-                    }
-                });
-            });
-        });
-    </script>
+    <script src="../assets/js/script-solutions.js"></script>
 
-    <script>
-        let btnNavigation = document.querySelectorAll('#btn-navigation');
-        btnNavigation.forEach(btn => {
-            btn.addEventListener('click', function() {
-                btnNavigation.forEach(btnNavigation => btnNavigation.classList.remove('active'));
-                this.classList.add('active');
-            });
-        });
-    </script>
 </body>
 
 </html>
