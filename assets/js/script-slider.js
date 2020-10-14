@@ -3,12 +3,11 @@ let spanAfter = document.getElementById('click-after');
 let divCommentary = document.getElementsByClassName('commentary-wrapper');
 let ElementNumber = 0;
 if (window.innerWidth > 1024) {
-   
+
     spanAfter.addEventListener('click', () => {
-   
-        ElementNumber++  
-   
-        console.log(ElementNumber);
+
+        ElementNumber++
+
         for (let PositionElement of divCommentary) {
             if (ElementNumber == 0) {
                 PositionElement.style.left = "0%";
@@ -28,7 +27,7 @@ if (window.innerWidth > 1024) {
 
     spanBefore.addEventListener('click', () => {
         ElementNumber--
-        console.log(ElementNumber);
+
         for (let PositionElement of divCommentary) {
             if (ElementNumber == 3) {
                 PositionElement.style.left = "0%";
@@ -44,14 +43,14 @@ if (window.innerWidth > 1024) {
                 PositionElement.style.left = "0%";
             }
         }
-      
+
     });
 }
 else if (window.innerWidth < 1024) {
 
     spanAfter.addEventListener('click', () => {
         ElementNumber++
-        console.log(ElementNumber);
+
         for (let PositionElement of divCommentary) {
             if (ElementNumber == 0) {
                 PositionElement.style.left = "0%";
@@ -77,7 +76,7 @@ else if (window.innerWidth < 1024) {
 
     spanBefore.addEventListener('click', () => {
         ElementNumber--
-        console.log(ElementNumber);
+
         for (let PositionElement of divCommentary) {
             if (ElementNumber == 0) {
                 PositionElement.style.left = "0%";

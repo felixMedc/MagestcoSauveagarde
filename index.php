@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ma Gestion Connectée</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
 	<link rel="stylesheet" href="assets/css/navigation.css">
 	<link rel="stylesheet" href="assets/css/footer.css">
 	<link rel="stylesheet" href="assets/css/index.css">
@@ -42,9 +43,8 @@
 					Depuis <strong>le 25 mai 2018</strong> date d’entrée en application du Règlement Général relatif à la Protection des Données Personnelles.<br>
 					Les entités privées comme publiques on pour obligation de se mettre au norme concernant la gestion des données personelles.
 				</p>
-
 				<p>
-					Magestco vous propose des services <strong>d’accompagnement à la mise en conformité au Règlement Général sur la Protection des Données <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees" target="_blank"> (RGPD)</a>,</strong>
+					Magestco vous propose des services <strong>d’accompagnement à la mise en conformité au Règlement Général sur la Protection des Données <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees" rel="noopener" target="_blank"> (RGPD)</a>,</strong>
 					<br>
 					Ainsi que de nombreuses <strong>fonctionnalité RH et outils sur mesure</strong> pour vous aidez au mieux a la réalisation de vos projets.
 					<br>
@@ -185,14 +185,72 @@
 		</div>
 	</section>
 
-	<!-- <section class="offres">
-		<h2>Nos offres</h2>
-	</section>  -->
+	<section id="offers">
+	<h2>Nos offres</h2>
+		<div id="list-offers">
+			<div class="offers-module">
+				<div class="container-module">
+					<div class="module-header">
+						<h3>Start</h3>
+					</div>
+					<div class="module-body">
+						<ul>
+							<li>Veille Documentaire</li>
+							<li>Base de donnée avec documents personnalisé</li>
+							<li>Assistance technique</li>
+							<li>Formation accessible en e-learning</li>
+						</ul>
+					</div>
+					<div class="module-footer">
+						<a href="" class="offers-btn">En savoir plus</a>
+					</div>
+				</div>
+				</div>
+				<div class="offers-module">
+				<div class="container-module">
+					<div class="module-header">
+						<h3>Start</h3>
+					</div>
+					<div class="module-body">
+						<ul>
+							<li>Veille Documentaire</li>
+							<li>Base de donnée avec documents personnalisé</li>
+							<li>Assistance technique</li>
+							<li>Formation accessible en e-learning</li>
+						</ul>
+					</div>
+					<div class="module-footer">
+						<a href="" class="offers-btn">En savoir plus</a>
+					</div>
+				</div>
+				</div>
+				
+				<div class="offers-module">
+				<div class="container-module">
+					<div class="module-header">
+						<h3>Start</h3>
+					</div>
+					<div class="module-body">
+						<ul>
+							<li>Veille Documentaire</li>
+							<li>Base de donnée avec documents personnalisé</li>
+							<li>Assistance technique</li>
+							<li>Formation accessible en e-learning</li>
+						</ul>
+					</div>
+					<div class="module-footer">
+						<a href="" class="offers-btn">En savoir plus</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
 
 	<section id="responsive-apps">
-		<div class="list-responsive">
+		<div id="list-responsive">
 			<h2>Un Site web et une application tout terrain</h2>
-		
+
 			<div class="responsive-module">
 				<div class="left-responsive">
 					<div class="container-img">
@@ -239,10 +297,14 @@
 		</div>
 		<div id="container-form">
 			<form action="" type="POST">
-				<input type="text" placeholder="Nom" name="" value="">
-				<input type="text" placeholder="Prénom" name="" value="">
-				<input type="mail" placeholder="Mail" name="" value="">
-				<textarea placeholder="Votre Message" name="" id="" rows="10" name="" value=""></textarea>
+				<label for="contact-lastname">Nom</label>
+				<input type="text" id="contact-lastname" placeholder="Nom" name="" value="">
+				<label for="contact-firstname">Prénom</label>
+				<input type="text" id="contact-firstname" placeholder="Prénom" name="" value="">
+				<label for="contact-mail">Mail</label>
+				<input type="mail" id="contact-mail" placeholder="Mail" name="" value="">
+				<label for="contact-message">Message</label>
+				<textarea type="text" id="contact-message" placeholder="Votre Message" name="" id="" rows="10" name="" value=""></textarea>
 				<button type="submit" class="btn-contact-form">Envoyer</button>
 			</form>
 		</div>
