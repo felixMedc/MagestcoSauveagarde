@@ -36,7 +36,7 @@
 		<div class="infoContact">
 			<ul>
 				<li>09.87.78.48.69</li>
-				<li>magestco@magestco.com</li>
+				<li>vousavezuncourrier@magestco.com</li>
 			</ul>
 		</div>
 	</div>

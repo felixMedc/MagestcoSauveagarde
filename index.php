@@ -180,7 +180,7 @@
 				Ne payez plus pour des services inutiles !
 			</p>
 			<div class="btn-infos">
-				<a href="" class="btn">Nos Solutions</a>
+				<a href="view/solutions.php" class="btn">Nos Solutions</a>
 			</div>
 		</div>
 	</section>
@@ -289,7 +289,6 @@
 
 
 	<?php include 'include/include-footer.php' ?>
-
 
 	<div class="container-contact">
 		<div class="contact-container-btn">
