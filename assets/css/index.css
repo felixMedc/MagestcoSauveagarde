@@ -656,32 +656,7 @@ div.container-contact #container-form form button.btn-contact-form {
     transform-origin: 100% 100% !important;
 }
 
-.container-mentions {
-    width: 80%;
-    margin: 50px auto;
-}
 
-.container-mentions h2 {
-    color: #F4A261;
-    margin: 25px 0px;
-}
-.container-mentions h3 {
-    color: #F4A261;
-    margin: 25px 0px;
-}
-
-.container-mentions ul li {
-    list-style: none;
-    margin: 10px 0px;
-}
-.container-mentions ul li a{
-   display: block;
-   font-weight: bold;
-   color: black;
-}
-.container-mentions ul li a:hover {
-    color:#F4A261
-}
 @media screen and (max-width:1440px) {
     section#prestation div.container-prestation, section#presentation div#container-presentation, section#responsive-apps div.container-responsive {
         width: 90%;
@@ -714,7 +689,7 @@ div.container-contact #container-form form button.btn-contact-form {
         flex-direction: column;
     }
     section#offers #list-offers .offers-module {
-        margin: 50px;
+        margin: 25px 0px;
     }
 }
 
@@ -803,6 +778,15 @@ div.container-contact #container-form form button.btn-contact-form {
 }
 
 @media screen and (max-width:425px) {
+    section#presentation div#container-presentation {
+        padding: 50px 0px;
+    }
+    section#prestation div.container-prestation, section#presentation div#container-presentation, section#responsive-apps div.container-responsive{
+        padding: 50px 0px;
+    }
+    #responsive-apps #list-responsive{
+        padding: 50px 0px;
+    }
     section#prestation .container-prestation .container #click-after {
         right: 0;
     }

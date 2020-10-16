@@ -21,29 +21,38 @@
             <h2>Se Connecter</h2>
             <form action="" method="post" id="FormLogin">
 
-                <div class="group-input">
+                <div class="global-container-input">
                     <label for="username">Identifiant :</label>
-                    <div class="container-input">
-                    <img src="../assets/img/icone-userlogin.svg" alt="">
-                    <input type="text" id="username" name="" placeholder="Identifiant">
+                    <div class="group-input">
+                        <div class="container-inputIcone">
+                            <img src="../assets/img/login/icone-userlogin.svg" alt="">
+                        </div>
+                        <div class="container-input">
+                            <input type="text" id="username" name="" placeholder="Identifiant">
+                        </div>
                     </div>
                     <!-- <div class="inputError">
                         <span class="spanError">Message Error</span>
                     </div> -->
                 </div>
 
-                <div class="group-input">
+                <div class="global-container-input">
                     <label for="user-password">Mot de passe :</label>
-                    <div class="container-input">
-                    <img src="../assets/img/icone-password.svg" alt="">
-                    <input type="password" id="user-password" name="" placeholder="Mot de passe">
+                    <div class="group-input">
+                        <div class="container-inputIcone">
+                            <img src="../assets/img/login/icone-password.svg" alt="">
+                        </div>
+                        <div class="container-input">
+                            <input type="password" id="user-password" name="" placeholder="Mot de passe">
+                            <span id="togglePasswordType" onclick="togglePasswordType()"><img id="" src="../assets/img/login/icone-passwordtype.svg" alt=""></span>
+                        </div>
                     </div>
                     <!-- <div class="inputError">
                         <span class="spanError">Message Error</span>
                     </div> -->
                 </div>
 
-                <div class="group-input">
+                <div class="global-container-input">
                     <button type="submit">Se Connecter</button>
                     <!-- <div class="inputError">
                         <span class="spanError">Message Error</span>
@@ -62,6 +71,7 @@
 
     <?php include '../include/include-footer.php' ?>
     <script src="../assets/js/script-responsiveMenu.js"></script>
+    <script src="../assets/js/script-login.js"></script>
 </body>
 
 </html>

@@ -41,6 +41,18 @@ html, body {
     scroll-behavior: smooth;
 }
 
+input:focus {
+    outline-color: #F4A261;
+}
+
+button:focus {
+    outline-color: #F4A261;
+}
+
+textarea:focus {
+    outline-color: #F4A261;
+}
+
 .bodystyle {
     overflow: hidden;
 }
@@ -65,14 +77,14 @@ a.btn {
 }
 
 .global-containerForm {
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
 }
 
 .global-containerForm .containerForm {
     width: 50%;
     margin: 0 auto;
-    padding: 100px;
+    padding: 100px 0px;
 }
 
 .global-containerForm .containerForm h2 {
@@ -98,47 +110,71 @@ a.btn {
     color: black;
 }
 
-.global-containerForm .containerForm #FormLogin .group-input {
+.global-containerForm .containerForm #FormLogin .global-container-input {
     margin: 15px 0px;
     display: flex;
-
     flex-direction: column;
 }
-.global-containerForm .containerForm #FormLogin .group-input .container-input {
+
+.global-containerForm .containerForm #FormLogin .global-container-input .group-input {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.global-containerForm .containerForm #FormLogin .group-input input {
-    width: 100%;
-    margin-left: 20px;
-}
-.global-containerForm .containerForm #FormLogin .group-input .container-input img {
+
+.global-containerForm .containerForm #FormLogin .global-container-input .group-input .container-inputIcone img {
     display: flex;
     flex-direction: row;
     width: 25px;
-    height: 25px;
+    height: auto;
 }
-.global-containerForm .containerForm #FormLogin .group-input label {
+
+.global-containerForm .containerForm #FormLogin .global-container-input label {
     margin-bottom: 10px;
     font-weight: bold;
 }
 
-.global-containerForm .containerForm #FormLogin .group-input input {
-    padding: 10px 15px;
+.global-containerForm .containerForm #FormLogin .global-container-input .group-input .container-input {
+    width: 100%;
+    margin-left: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.global-containerForm .containerForm #FormLogin .global-container-input .group-input .container-input input {
     border: none;
     background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    padding: 10px 15px;
     border-radius: 5px;
 }
 
-.global-containerForm .containerForm #FormLogin .group-input .inputError {
+.global-containerForm .containerForm #FormLogin .global-container-input .group-input .container-input input#user-password {
+    position: relative;
+}
+
+.global-containerForm .containerForm #FormLogin .global-container-input .group-input .container-input span#togglePasswordType {
+    position: absolute;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+
+.global-containerForm .containerForm #FormLogin .global-container-input .group-input .container-input span#togglePasswordType img {
+    width: 25px;
+    height: 25px;
+}
+
+.global-containerForm .containerForm #FormLogin .global-container-input .inputError {
     color: #ec4949;
     margin-top: 10px;
     font-weight: bold;
     font-size: 16px;
 }
 
-.global-containerForm .containerForm #FormLogin .group-input button {
+.global-containerForm .containerForm #FormLogin .global-container-input button {
     padding: 10px 15px;
     border: none;
     background-color: #F4A261;
@@ -146,4 +182,37 @@ a.btn {
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+}
+
+@media screen and (max-width:1440px) {
+    .global-containerForm .containerForm {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .global-containerForm .containerForm {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .global-containerForm .containerForm {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .global-containerForm {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .global-containerForm {
+        width: 90%;
+    }
+    .global-containerForm .containerForm #FormLogin .global-container-input .group-input .container-input {
+        margin-left: 10px;
+    }
 }

@@ -2,7 +2,7 @@
    scroll-behavior: smooth;
  }
 
- ul li {
+  details ul li {
    margin: 10px 0px;
  }
 
@@ -137,7 +137,7 @@
  }
 
  .container-listSolutions .solution .text-solution h3 {
-   font-size: 20px;
+   font-size: 25px;
    text-transform: uppercase;
    color: #F4A261;
  }
@@ -163,7 +163,7 @@
  .container-listSolutions .solution .text-solution p {
    color: black;
    font-weight: 500;
-   margin-bottom: 10px;
+   margin: 10px 0px;
  }
 
  @media screen and (max-width:1024px) {

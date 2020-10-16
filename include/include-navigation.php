@@ -4,9 +4,9 @@
 				<a href="../index.php"><img src="../assets/img/logo-navbar.png" alt=""></a>
 			</div>
 			<ul id="navbar-link">
-				<li><a href="../view/qui.php">Qui sommes-nous ? </a></li>
-				<li><a href="../view/solutions.php">Nos Solutions</a></li>
-				<li><a href="">Nos Clients</a> </li>
+				<li><a href="../view/presentation.php">Présentation</a></li>
+				<li><a href="../view/solutions.php">Solutions</a></li>
+				<li><a href="../view/contact.php">Contact</a> </li>
 				<li><a href="../view/login.php" class="btn-account"><img src="../assets/img/icone-user.svg" alt=""></a></li>
 			</ul>
 			<div class="container-burger">
@@ -27,9 +27,9 @@
 		</div>
 		<div class="menu-responsive">
 			<ul>
-				<li><a href="../view/qui.php">Qui somme nous ?</a></li>
-				<li><a href="../view/solutions.php">Nos Solutions</a></li>
-				<li><a href="">Nos Client</a></li>
+				<li><a href="../view/qui.php">Présentation</a></li>
+				<li><a href="../view/solutions.php">Solutions</a></li>
+				<li><a href="../view/contact.php">Contact</a></li>
 				<li><a href="../view/login.php">Mon Compte</a></li>
 			</ul>
 		</div>
