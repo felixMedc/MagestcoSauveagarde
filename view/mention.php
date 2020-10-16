@@ -34,11 +34,10 @@
         <ul>
             <li><strong>Site réalisé par : MAGESTCO </strong></li>
             <li><strong>Responsable de la publication : MAGESTCO</strong></li>
-            <li><strong>Numéro de SIRET : </strong></li>
+            <li><strong>Numéro de SIREN : 890 019 847</strong></li>
             <li><strong>Forme juridique de la société :</strong>  SAS </li>
             <li><strong>Montant du capital social : </strong></li>
             <li><strong>Adresse postal : </strong> 5 place Léon Meyer - 76600 Le Havre</li>
-            <li><strong>Adresse siège social : </strong> </li>
             <li><strong>Adresse mail : </strong>vousavezuncourrier@magestco.com </li>
             <li><strong>Numéro de télephone :</strong> 09.87.78.48.69 </li>
         </ul>
