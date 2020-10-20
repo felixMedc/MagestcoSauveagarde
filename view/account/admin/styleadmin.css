@@ -1,0 +1,163 @@
+body
+{
+margin: 0px;
+font-family:Arial;
+}
+
+a.general
+{
+color: #000000;
+text-decoration: none;
+}
+
+a.general:hover
+{
+color: #000000;
+text-decoration: underline;
+}
+
+a.menu
+{
+height: 50px;
+color: #000000;
+vertical-align: center;
+text-decoration: none;
+font-size: 20px;
+cursor: pointer;
+}
+
+a.menu:hover
+{
+text-decoration: underline;
+}
+
+a.menu2
+{
+height: 50px;
+color: #FFFFFF;
+vertical-align: center;
+text-decoration: none;
+font-size: 20px;
+cursor: pointer;
+}
+
+a.menu2:hover
+{
+color: #CCCCCC;
+}
+
+table
+{
+border-collapse: collapse;
+}
+
+/* MENU DEROULANT */
+#menu-demo2, #menu-demo2 ul{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+}
+#menu-demo2 li{
+width: 220px;
+display:inline-block;
+position:relative;
+border-radius:8px 8px 0 0;
+}
+#menu-demo2 ul li{
+display:inherit;
+border-radius:0;
+}
+#menu-demo2 ul li:hover{
+border-radius:0;
+}
+#menu-demo2 ul li:last-child{
+border-radius:0 0 8px 8px;
+}
+#menu-demo2 ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+}
+#menu-demo2 li:hover ul{
+max-height:25em;
+}
+/* les a href */
+#menu-demo2 a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:#FFFFFF;
+font-family:arial;
+}
+#menu-demo2 ul a{
+padding:8px 0;
+}
+#menu-demo2 li:hover li a{
+color:#FFFFFF;
+text-transform:inherit;
+}
+#menu-demo2 li:hover a, #menu-demo2 li li:hover a{
+color:#CCCCCC;
+}
+
+/*MENU 2 */
+ul ul
+{
+display: none;
+margin: 0px;
+padding: 0px;
+z-index: 1000;
+}
+ul.niveau1
+{
+text-align:center;
+}
+ul.niveau2
+{
+position: absolute;
+top:34px;
+left:0px;
+text-align:center;
+}
+ul.niveau3
+{
+position: absolute;
+top:0px;
+left:220px;
+text-align:center;
+}
+li
+{
+list-style-type: none;
+display:inline-block;
+position: relative;
+width: 220px;
+}
+li:hover ul.niveau2, li li:hover ul.niveau3
+{
+display:block;
+}
+li.titre
+{
+border-radius:8px 8px 0 0;
+}
+a.testmenu
+{
+text-decoration:none;
+display:block;
+padding:8px 5px;
+color:#FFFFFF;
+font-family:arial;
+}
+a.testmenu:hover
+{
+text-decoration:none;
+display:block;
+padding:8px 5px;
+color:#CCCCCC;
+font-family:arial;
+}

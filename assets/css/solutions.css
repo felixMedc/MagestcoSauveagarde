@@ -1,7 +1,8 @@
  body, html {
+  font-family: 'Roboto', sans-serif;
    scroll-behavior: smooth;
  }
-
+ 
   details ul li {
    margin: 10px 0px;
  }

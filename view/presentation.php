@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Présentation - Magestco </title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon/favicon-32x32.png">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/css/navigation.css">
@@ -61,41 +62,42 @@
             <div class="module-clients">
                 <div class="client">
                     <div class="img-container">
-                    <img src="../assets/img/clients/geothermique.png" alt="">
+                        <a href=""><img src="../assets/img/clients/geothermique.png" alt=""></a>
                     </div>
                 </div>
                 <div class="client">
                     <div class="img-container">
-                    <img src="../assets/img/clients/geothermique.png" alt="">
+                        <a href=""><img src="../assets/img/clients/geothermique.png" alt=""></a>
                     </div>
                 </div>
                 <div class="client">
                     <div class="img-container">
-                    <img src="../assets/img/clients/geothermique.png" alt="">
+                        <a href=""><img src="../assets/img/clients/geothermique.png" alt=""></a>
                     </div>
                 </div>
                 <div class="client">
                     <div class="img-container">
-                    <img src="../assets/img/clients/geothermique.png" alt="">
+                        <a href=""><img src="../assets/img/clients/geothermique.png" alt=""></a>
                     </div>
                 </div>
                 <div class="client">
                     <div class="img-container">
-                    <img src="../assets/img/clients/geothermique.png" alt="">
+                       <a href=""> <img src="../assets/img/clients/geothermique.png" alt=""></a>
                     </div>
                 </div>
                 <div class="client">
                     <div class="img-container">
-                    <img src="../assets/img/clients/geothermique.png" alt="">
+                    <a href=""><img src="../assets/img/clients/geothermique.png" alt=""></a>
                     </div>
                 </div>
                 <div class="client">
                     <div class="img-container">
-                    <img src="../assets/img/clients/geothermique.png" alt="">
+                    <a href=""><img src="../assets/img/clients/geothermique.png" alt=""></a>
                     </div>
-                </div> <div class="client">
+                </div>
+                <div class="client">
                     <div class="img-container">
-                    <img src="../assets/img/clients/geothermique.png" alt="">
+                    <a href=""><img src="../assets/img/clients/geothermique.png" alt=""></a>
                     </div>
                 </div>
             </div>

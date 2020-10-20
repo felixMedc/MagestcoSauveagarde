@@ -1,0 +1,208 @@
+@charset "utf-8";
+header, section, footer, aside, nav, main, article, figure {
+	display: block;
+}
+
+div, header, nav, article, section, aside, footer, h1, h2, h3, h4, h5, h6, p, a, ul, li, figure, figcaption, class, img {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+}
+
+main {
+	overflow: hidden;
+}
+
+img, object, embed, canvas, video, audio, picture, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	border: 0 solid transparent;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	display: block;
+	font-family: 'Roboto', sans-serif!important;
+	transition: all 0.25s;
+	position: relative;
+	border: none;
+	scroll-behavior: smooth;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav#navbar {
+	width: 100%;
+}
+
+nav#navbar #container-navbar {
+	width: 100%;
+	background-color: #414040;
+}
+
+nav#navbar #container-navbar ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin: 0;
+	padding: 0;
+	margin-right: 25px;
+	;
+}
+
+nav#navbar #container-navbar ul li {
+	list-style: none;
+}
+
+nav#navbar #container-navbar ul li a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	font-weight: 500;
+}
+
+#global-containerDashboard {
+	width: 100%;
+	display: flex;
+	min-height: 100%;
+}
+
+.container-infoAccount {
+	width: 20%;
+	background-color: #F4A261;
+	height: auto;
+	box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.226);
+}
+
+.container-infoAccount ul {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.container-infoAccount li {
+	width: 100%;
+	list-style: none;
+	margin: 25px 0px;
+}
+
+.container-infoAccount div {
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+	box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.226);
+	background-color: white;
+	border-radius: 5px;
+}
+
+.container-infoAccount div h3 {
+	width: 100%;
+	color: #F4A261;
+}
+
+.container-infoAccount div #btnModif {
+	margin-top: 25px;
+	display: block;
+	padding: 5px 15px;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: bold;
+	background-color: #F4A261;
+	color: white;
+	text-align: center;
+}
+
+.container-infoGraph {
+	width: 80%;
+	height: auto;
+	padding: 10px;
+}
+
+.container-infoGraph h2 {
+	width: 80%;
+	color: #F4A261;
+	height: auto;
+	text-transform: uppercase;
+}
+
+.container-modifyAccount {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.container-modifyAccount form {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.container-modifyAccount form h2 {
+	margin: 25px 0px;
+}
+
+.container-modifyAccount form .containerCol {
+	display: flex;
+	width: 100%;
+}
+
+.container-modifyAccount form .colForm {
+	width: 60%;
+}
+
+.container-modifyAccount form .group-input {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.container-modifyAccount form .group-input input {
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	padding: 10px 15px;
+	background-color: whitesmoke;
+	margin: 5px 0px;
+}
+
+.container-modifyAccount form .group-input input#autoentrepreneur {
+	width: auto;
+}
+
+.container-modifyAccount form .group-input label {
+	margin: 5px 0px;
+	width: 100%;
+	text-align: left;
+	font-weight: bold;
+}
+
+#btnModifAccount {
+	border: none;
+	width: 100%;
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin-top: 50px;
+	cursor: pointer;
+	background-color: #F4A261;
+	color: white;
+	font-weight: bold;
+}

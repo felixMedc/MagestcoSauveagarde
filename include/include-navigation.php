@@ -27,7 +27,7 @@
 		</div>
 		<div class="menu-responsive">
 			<ul>
-				<li><a href="../view/qui.php">Présentation</a></li>
+				<li><a href="../view/presentation.php">Présentation</a></li>
 				<li><a href="../view/solutions.php">Solutions</a></li>
 				<li><a href="../view/contact.php">Contact</a></li>
 				<li><a href="../view/login.php">Mon Compte</a></li>
