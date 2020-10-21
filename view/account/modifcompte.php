@@ -30,16 +30,16 @@
 						<div class="group-input">
 							<label for="adresse1">Adresse 1 : </label>
 							<input id="adresse1" name="Adresse1Professionnel" type="text" size="55" placeholder="Adresse" value="<?= $ModifyInfo['Adresse1Professionnel'] ?>">
-							<input id="adresse2" name="Adresse2Professionnel"  placeholder="Adresse (facultatif)" type="text" size="55" placeholder="Adresse 2" value="<?= $ModifyInfo['Adresse2Professionnel'] ?>">
+							<input id="adresse2" name="Adresse2Professionnel" placeholder="Complément d'adresse (facultatif)" type="text" size="55" placeholder="Adresse 2" value="<?= $ModifyInfo['Adresse2Professionnel'] ?>">
 							<input id="cp" name="CPProfessionnel" type="text" size="25" maxlength="5" placeholder="Code postal" value="<?= $ModifyInfo['CPProfessionnel'] ?>">
 							<input id="ville" name="VilleProfessionnel" type="text" size="25" placeholder="Ville" value="<?= $ModifyInfo['VilleProfessionnel'] ?>">
-		</div>			 
+						</div>
 						<div class="group-input">
 							<label for="tel">Contact : </label>
 							<input id="tel" name="Tel1Professionnel" type="text" size="25" placeholder="Tél" value="<?= $ModifyInfo['Tel1Professionnel'] ?>">
-							<input id="mel" name="Mel1Professionnel" type="text" size="25" placeholder="Mél" value="<?= $ModifyInfo['Mel1Professionnel'] ?>">
+							<input id="mel" name="Mel1Professionnel" type="text" size="25" placeholder="Mail" value="<?= $ModifyInfo['Mel1Professionnel'] ?>">
 							<input id="tel2" name="Tel2Professionnel" type="text" size="25" placeholder="Tél 2 (Facultatif)" value="<?= $ModifyInfo['Tel2Professionnel'] ?>">
-							<input id="mel2" name="Mel2Professionnel" type="text" size="25" placeholder="Mél 2 (Facultatif)" value="<?= $ModifyInfo['Mel2Professionnel']  ?>">
+							<input id="mel2" name="Mel2Professionnel" type="text" size="25" placeholder="Mail 2 (Facultatif)" value="<?= $ModifyInfo['Mel2Professionnel']  ?>">
 						</div>
 					</div>
 					<div class="colForm">
@@ -52,19 +52,8 @@
 							<input id="tva" name="NoTVAProfessionnel" type="text" size="55" placeholder="N° TVA intracommunautaire" value="<?= $ModifyInfo['NoTVAProfessionnel'] ?>">
 						</div>
 						<div class="group-input">
-							<?php
-							if ($ModifyInfo['AutoEntrepreneur'] == 1) {
-							?>
-								<input id="AutoEntrepreneur" name="AutoEntrepreneur" type="checkbox" checked>
-								<label for="AutoEntrepreneur">Cocher si TVA non applicable (art. 293B du CGI)</label>
-							<?php
-							} else if ($ModifyInfo['AutoEntrepreneur'] == 0){
-							?>
-								<input id="AutoEntrepreneur" name="AutoEntrepreneur" type="checkbox">
-								<label for="AutoEntrepreneur">Cocher si TVA non applicable (art. 293B du CGI)</label>
-							<?php
-							}
-							?>
+							<input id="AutoEntrepreneur" name="AutoEntrepreneur" type="checkbox" <?php if($ModifyInfo['AutoEntrepreneur'] == 1) {echo 'checked';} ?> >
+							<label for="AutoEntrepreneur">Cocher si TVA non applicable (art. 293B du CGI)</label>
 						</div>
 						<div class="group-input">
 							<label for="APE">APE : </label>
@@ -90,8 +79,8 @@
 					</div>
 				</div>
 			</form>
-			<?php var_dump($ArrayModifyAccount)?>
-		<?php } ?>
+		<?php var_dump($ArrayModifyAccount); } ?>
 	</div>
 </body>
+
 </html>

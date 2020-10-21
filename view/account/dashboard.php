@@ -55,11 +55,32 @@
 							<h4>Adresse : </h4>
 							<h5><?= $info['RaisonSocialeProfessionnel'] ?></h5>
 							<h5><?= $info['Adresse1Professionnel'] ?></h5>
+							<h5><?= $info['Adresse2Professionnel']?></h5>
 							<h5><?= $info['CPProfessionnel'] . ", " . $info['VilleProfessionnel']   ?></h5>
+							<?php if(!empty($info['Mel1Professionnel'])) {  ?>
 							<h4>Mail : </h4>
 							<h5><?= $info['Mel1Professionnel'] ?> </h5>
+							<?php }?>
+							<?php if(!empty($info['Tel1Professionnel'])) {  ?>
 							<h4>Téléphone : </h4>
 							<h5><?= $info['Tel1Professionnel'] ?> </h5>
+							<?php }?>
+							<?php if(!empty($info['SiretProfessionnel'])) {  ?>
+							<h4>SIRET : </h4>
+							<h5><?= $info['SiretProfessionnel'] ?> </h5>
+							<?php }?>
+							<?php if(!empty($info['SiretProfessionnel'])) {  ?>
+							<h4>Numéro TVA : </h4>
+							<h5><?= $info['NoTVAProfessionnel'] ?> </h5>
+							<?php }?>
+							<?php if(!empty($info['SiretProfessionnel'])) {  ?>
+							<h4>Numéro APE : </h4>
+							<h5><?= $info['APEProfessionnel'] ?> </h5>
+							<?php }?>
+							<?php if(!empty($info['SiretProfessionnel'])) {  ?>
+							<h4>Votre Offre : </h4>
+							<h5><?= $info['OffreProfessionnel'] ?> </h5>
+							<?php }?>
 						<?php } ?>
 
 						<a href="modifcompte.php?id=<?= $id; ?>" id="btnModif">Modifier informations compte</a>

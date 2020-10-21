@@ -9,18 +9,43 @@
 	<link rel="stylesheet" href="../../assets/css/dashboard.css">
 </head>
 
-<?php $id = $_GET['id']; ?>
+<body onload="clicauto()">
+	<?php
+	$id = $_GET['id'];
+	?>
+	<script>
+		function clicauto() {
+			document.getElementById('submitid').click();
+			document.getElementById('submitid').style.display = "none";
+		};
+	</script>
 
-<script>
-	// test session et retour connexion
-	var testsession = window.sessionStorage.getItem('session');
-	if (!testsession) {
-		document.location.href = "../login.php";
-	};
-</script>
+	<form action="https://www.monentretiendechaudiere.fr/pages/compte/chauff_magestco.php" method="post">
+		<input name="id" type="hidden" value="<?php echo $id; ?>">
+		<input type="submit" id="submitid" value="Valider">
+	</form>
 
-<?= "<script> document.location.href = 'http://www.monentretiendechaudiere.fr/pages/compte/chauff_magestco.php?id=" . $_GET['id'] . "'; </script>"; ?>
+	<h2>Veuillez patienter, vous allez être redirigé vers votre logiciel...</h2>
 
+
+	<!-- <script>
+		let timer = 5000;
+		let interval = 1000;
+		let range = timer / interval;
+
+		function init() {
+			interv = setInterval("countdown()", 1000);
+		}
+
+		function countdown() {
+			if (range > 1) {
+				range--;
+				document.getElementById('countdown').innerHTML = range + ' s';
+			} else {
+				window.location = '../index.php';
+			}
+		};
+	</script> -->
 </body>
 
 </html>

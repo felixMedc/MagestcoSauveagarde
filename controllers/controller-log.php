@@ -25,7 +25,7 @@ if (isset($_POST['logSubmit']) && count($error) == 0) {
 
     if ($log->VerifyLog($username, $password)) {
     } else {
-        $error['login'] = 'Compte inexistant ou erreur d\'écriture ';
+        $error['login'] = 'Compte inexistant ou mauvais identifiants ';
     }
 }
 

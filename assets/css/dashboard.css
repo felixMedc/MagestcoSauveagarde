@@ -143,6 +143,14 @@ nav#navbar #container-navbar ul li a {
 	text-transform: uppercase;
 }
 
+.container-infoGraph ul li {
+	list-style: none;
+}
+
+
+
+
+
 .container-modifyAccount {
 	width: 100%;
 	margin: 0 auto;

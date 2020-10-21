@@ -75,4 +75,7 @@ class Dashboard
         $resultQuery->bindValue(':id', $id);
         $resultQuery->execute();
     }
+
+   
+
 }
