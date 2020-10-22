@@ -53,7 +53,7 @@
 						</div>
 						<div class="group-input">
 							<input id="AutoEntrepreneur" name="AutoEntrepreneur" type="checkbox" <?php if($ModifyInfo['AutoEntrepreneur'] == 1) {echo 'checked';} ?> >
-							<label for="AutoEntrepreneur">Cocher si TVA non applicable (art. 293B du CGI)</label>
+							<i><h5>Cocher si TVA non applicable (art. 293B du CGI)</h5></i>
 						</div>
 						<div class="group-input">
 							<label for="APE">APE : </label>
@@ -79,7 +79,7 @@
 					</div>
 				</div>
 			</form>
-		<?php var_dump($ArrayModifyAccount); } ?>
+		<?php } ?>
 	</div>
 </body>
 

@@ -122,10 +122,11 @@ section#presentation div#container-presentation div.right-pres h2 {
 section#presentation div#container-presentation div.right-pres p {
     margin-left: 20px;
     font-size: 20px;
+    max-width: 500px;
 }
 
 section#presentation div#container-presentation div.right-pres p strong {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 section#presentation div#container-presentation div.right-pres .container-btn {
@@ -458,7 +459,6 @@ section#offers #list-offers .offers-module .container-module .module-header {
     margin-top: 25px;
 }
 
- 
 section#offers #list-offers .offers-module .container-module .module-body ul {
     width: 100%;
     display: flex;
@@ -469,8 +469,6 @@ section#offers #list-offers .offers-module .container-module .module-body ul li 
     list-style: none;
     line-height: 35px;
 }
-
- 
 
 section#offers #list-offers .offers-module .container-module .module-footer .offers-btn {
     display: block;
@@ -502,7 +500,7 @@ section#responsive-apps {
     position: relative;
 }
 
-section#responsive-apps:before {
+/* section#responsive-apps:before {
     content: "";
     height: 2px;
     background-color: #e7e7e6;
@@ -512,7 +510,7 @@ section#responsive-apps:before {
     left: 0;
     right: 0;
     top: -25px;
-}
+} */
 
 #responsive-apps #list-responsive {
     width: 70%;
@@ -533,10 +531,7 @@ section#responsive-apps:before {
     width: 80%;
     margin: 100px auto;
     display: flex;
-}
-
-#responsive-apps #list-responsive .responsive-module .left-responsive {
-    width: 30%;
+    justify-content: center;
 }
 
 #responsive-apps #list-responsive .responsive-module .left-responsive .container-img {
@@ -559,9 +554,7 @@ section#responsive-apps:before {
 }
 
 #responsive-apps #list-responsive .responsive-module .right-responsive {
-    width: 70%;
-    margin: 0 auto;
-    margin-left: 10px;
+    margin-left: 50px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -576,6 +569,7 @@ section#responsive-apps:before {
 
 #responsive-apps #list-responsive .responsive-module .right-responsive p {
     margin-bottom: 25px;
+    max-width: 400px;
 }
 
 div.container-contact {
@@ -655,7 +649,6 @@ div.container-contact #container-form form button.btn-contact-form {
     color: white;
     transform-origin: 100% 100% !important;
 }
-
 
 @media screen and (max-width:1440px) {
     section#prestation div.container-prestation, section#presentation div#container-presentation, section#responsive-apps div.container-responsive {
@@ -775,16 +768,18 @@ div.container-contact #container-form form button.btn-contact-form {
         margin-left: inherit;
         margin-top: 50px;
     }
+    #responsive-apps #list-responsive .responsive-module .right-responsive p {
+        max-width: inherit;
+    }
 }
-
 @media screen and (max-width:425px) {
     section#presentation div#container-presentation {
         padding: 50px 0px;
     }
-    section#prestation div.container-prestation, section#presentation div#container-presentation, section#responsive-apps div.container-responsive{
+    section#prestation div.container-prestation, section#presentation div#container-presentation, section#responsive-apps div.container-responsive {
         padding: 50px 0px;
     }
-    #responsive-apps #list-responsive{
+    #responsive-apps #list-responsive {
         padding: 50px 0px;
     }
     section#prestation .container-prestation .container #click-after {

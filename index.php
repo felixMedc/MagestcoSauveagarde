@@ -23,13 +23,13 @@
 			</div>
 			<div class="right-pres">
 				<h1>Libérez vous du temps</h1>
-
-				<p>Un accompagnement personnalisé dans la vie de votre entreprise : voici la promesse de <br><strong> Magestco .</strong><br>
-					Besoin d'un logiciel en SaaS ? d'outils de pilotage ? De vous mettre en conformité quant à la dématérialisation des données ? De trouver une solution adaptée à votre organisation ?
+				<p>
+					Des solutions adaptées à la vie de votre entreprise : voici la promesse de <strong>MAGESTCO</strong><br>
+					Besoin d’un logiciel en SaaS ? d’outils de pilotage ? De connaitre et appliquer la législation dans votre société ?
 				</p>
 				<h2>Vous êtes au bon endroit.</h2>
 				<div class="container-btn">
-					<a href="view/qui.php" class="btn ">Qui sommes-nous ? </a>
+					<a href="view/presentation.php" class="btn ">Présentation</a>
 				</div>
 			</div>
 		</div>
@@ -40,17 +40,11 @@
 
 			<div class="left-prestation">
 				<h2>Nos prestations</h2>
-				<p>
-					Depuis <strong>le 25 mai 2018</strong> date d’entrée en application du Règlement Général relatif à la Protection des Données Personnelles.<br>
-					Les entités privées comme publiques on pour obligation de se mettre au norme concernant la gestion des données personelles.
-				</p>
-				<p>
-					Magestco vous propose des services <strong>d’accompagnement à la mise en conformité au Règlement Général sur la Protection des Données <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees" rel="noopener" target="_blank"> (RGPD)</a>,</strong>
-					<br>
-					Ainsi que de nombreuses <strong>fonctionnalité RH et outils sur mesure</strong> pour vous aidez au mieux a la réalisation de vos projets.
-					<br>
-					<strong>Une équipe dynamique</strong> a votre service qui vous proposera des solutions correspondant a vos besoins.</p>
-
+				<p><strong>Magestco</strong> vous propose des services d’accompagnements et de formations <br>
+					pour développer votre activité, respecter la loi et gagner en productivité.</p>
+				<p><strong>De nombreuses loi sont apparues depuis quelques années</strong> règlementant tout un ensemble de votre activité,
+					c’est pourquoi nous intervenons pour vous maintenir à jour dans vos obligations.</p>
+				<p><strong>Une équipe dynamique</strong> à votre service qui vous proposera des solutions correspondant à vos besoins.</p>
 				<a href="" class="btn">Demander votre devis</a>
 			</div>
 			<div class="right-prestation">
@@ -66,26 +60,23 @@
 						<li>Gestion des clients</li>
 						<li>GMAO</li>
 						<li>Gestion des plannings</li>
-						<li>Gestion de la facturation </li>
 					</ul>
 				</div>
 				<div class="module">
 					<h3>Outils sur mesure</h3>
 					<ul>
 						<li>Outils de pilotage</li>
-						<li>Accompagnements au numérique</li>
-						<li>Dématérialisation complète </li>
+						<li>Transitions au numérique</li>
+						<li>Dématérialisation complète de l'activité </li>
 					</ul>
 				</div>
 				<div class="module">
 					<h3>Solution RH</h3>
 					<ul>
 						<li>Gestion des appels</li>
-						<li>Gestion des porte-feuilles</li>
+						<li>Gestion des contrats</li>
 					</ul>
 				</div>
-
-
 			</div>
 			<div class="global-container-commentary">
 				<h2>Avis de Nos Clients</h2>
@@ -103,7 +94,7 @@
 									<h3>Accompagnement numérique</h3>
 								</div>
 								<div class="commentary-footer">
-									<h3>CRC</h3>
+									<h3>M.LETHUILLIERS</h3>
 									<p>"Encore merci pour l'accompagnement"</p>
 								</div>
 							</div>
@@ -118,7 +109,7 @@
 									<h3>Gestion planning</h3>
 								</div>
 								<div class="commentary-footer">
-									<h3>Couverture B</h3>
+									<h3>M.LEROUX</h3>
 									<p>"Une solution simple et pratique"</p>
 								</div>
 							</div>
@@ -133,7 +124,7 @@
 									<h3>Gestion externalisée</h3>
 								</div>
 								<div class="commentary-footer">
-									<h3>Esclim</h3>
+									<h3>M.JAGUIN</h3>
 									<p>"Equipe dynamique et réactive, toujours une solution à apporter"</p>
 								</div>
 							</div>
@@ -141,15 +132,14 @@
 						<div class="commentary-wrapper">
 							<div class="commentary-stucture">
 								<div class="commentary-header">
-									<h3>logo entreprise ou outils</h3>
+									<img src="assets/img/icone-gestionExterne.svg" alt="">
 								</div>
 								<div class="commentary-body">
-
-									<h3>Outils utilisé</h3>
+									<h3>Formation</h3>
 								</div>
 								<div class="commentary-footer">
-									<h3>nom entreprise</h3>
-									<p>"commentaire"</p>
+									<h3>Mme PALLAVEE</h3>
+									<p>"Super instructif"</p>
 								</div>
 							</div>
 						</div>
@@ -186,71 +176,9 @@
 		</div>
 	</section>
 
-	<section id="offers">
-	<h2>Nos offres</h2>
-		<div id="list-offers">
-			<div class="offers-module">
-				<div class="container-module">
-					<div class="module-header">
-						<h3>Start</h3>
-					</div>
-					<div class="module-body">
-						<ul>
-							<li>Veille Documentaire</li>
-							<li>Base de donnée avec documents personnalisé</li>
-							<li>Assistance technique</li>
-							<li>Formation accessible en e-learning</li>
-						</ul>
-					</div>
-					<div class="module-footer">
-						<a href="" class="offers-btn">En savoir plus</a>
-					</div>
-				</div>
-				</div>
-				<div class="offers-module">
-				<div class="container-module">
-					<div class="module-header">
-						<h3>Start</h3>
-					</div>
-					<div class="module-body">
-						<ul>
-							<li>Veille Documentaire</li>
-							<li>Base de donnée avec documents personnalisé</li>
-							<li>Assistance technique</li>
-							<li>Formation accessible en e-learning</li>
-						</ul>
-					</div>
-					<div class="module-footer">
-						<a href="" class="offers-btn">En savoir plus</a>
-					</div>
-				</div>
-				</div>
-				
-				<div class="offers-module">
-				<div class="container-module">
-					<div class="module-header">
-						<h3>Start</h3>
-					</div>
-					<div class="module-body">
-						<ul>
-							<li>Veille Documentaire</li>
-							<li>Base de donnée avec documents personnalisé</li>
-							<li>Assistance technique</li>
-							<li>Formation accessible en e-learning</li>
-						</ul>
-					</div>
-					<div class="module-footer">
-						<a href="" class="offers-btn">En savoir plus</a>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-
 	<section id="responsive-apps">
 		<div id="list-responsive">
-			<h2>Un Site web et une application tout terrain</h2>
+			<h2>Sites Web, applications tout terrain, on développe ...</h2>
 
 			<div class="responsive-module">
 				<div class="left-responsive">

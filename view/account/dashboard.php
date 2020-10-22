@@ -12,9 +12,9 @@
 	<link rel="stylesheet" href="../../assets/css/dashboard.css">
 	<!-- ressources chart.js -->
 	<link rel="stylesheet" type="text/css" href="../js/chart.js/samples/style.css"> <!-- samples -->
-	<script src="../js/chart.js/dist/Chart.min.js"></script> <!-- dist -->
-	<script src="../js/chart.js/samples/utils.js"></script> <!-- samples -->
-	<script src="../js/chart.js/samples/charts/area/analyser.js"></script><!-- samples > charts > area -->
+	<script src="../../assets/js/chart.js/dist/Chart.min.js"></script> <!-- dist -->
+	<script src="../../assets/js/chart.js/samples/utils.js"></script> <!-- samples -->
+	<script src="../../assets/js/chart.js/samples/charts/area/analyser.js"></script><!-- samples > charts > area -->
 
 </head>
 
@@ -55,32 +55,32 @@
 							<h4>Adresse : </h4>
 							<h5><?= $info['RaisonSocialeProfessionnel'] ?></h5>
 							<h5><?= $info['Adresse1Professionnel'] ?></h5>
-							<h5><?= $info['Adresse2Professionnel']?></h5>
+							<h5><?= $info['Adresse2Professionnel'] ?></h5>
 							<h5><?= $info['CPProfessionnel'] . ", " . $info['VilleProfessionnel']   ?></h5>
-							<?php if(!empty($info['Mel1Professionnel'])) {  ?>
-							<h4>Mail : </h4>
-							<h5><?= $info['Mel1Professionnel'] ?> </h5>
-							<?php }?>
-							<?php if(!empty($info['Tel1Professionnel'])) {  ?>
-							<h4>Téléphone : </h4>
-							<h5><?= $info['Tel1Professionnel'] ?> </h5>
-							<?php }?>
-							<?php if(!empty($info['SiretProfessionnel'])) {  ?>
-							<h4>SIRET : </h4>
-							<h5><?= $info['SiretProfessionnel'] ?> </h5>
-							<?php }?>
-							<?php if(!empty($info['SiretProfessionnel'])) {  ?>
-							<h4>Numéro TVA : </h4>
-							<h5><?= $info['NoTVAProfessionnel'] ?> </h5>
-							<?php }?>
-							<?php if(!empty($info['SiretProfessionnel'])) {  ?>
-							<h4>Numéro APE : </h4>
-							<h5><?= $info['APEProfessionnel'] ?> </h5>
-							<?php }?>
-							<?php if(!empty($info['SiretProfessionnel'])) {  ?>
-							<h4>Votre Offre : </h4>
-							<h5><?= $info['OffreProfessionnel'] ?> </h5>
-							<?php }?>
+							<?php if (!empty($info['Mel1Professionnel'])) {  ?>
+								<h4>Mail : </h4>
+								<h5><?= $info['Mel1Professionnel'] ?> </h5>
+							<?php } ?>
+							<?php if (!empty($info['Tel1Professionnel'])) {  ?>
+								<h4>Téléphone : </h4>
+								<h5><?= $info['Tel1Professionnel'] ?> </h5>
+							<?php } ?>
+							<?php if (!empty($info['SiretProfessionnel'])) {  ?>
+								<h4>SIRET : </h4>
+								<h5><?= $info['SiretProfessionnel'] ?> </h5>
+							<?php } ?>
+							<?php if (!empty($info['SiretProfessionnel'])) {  ?>
+								<h4>Numéro TVA : </h4>
+								<h5><?= $info['NoTVAProfessionnel'] ?> </h5>
+							<?php } ?>
+							<?php if (!empty($info['SiretProfessionnel'])) {  ?>
+								<h4>Numéro APE : </h4>
+								<h5><?= $info['APEProfessionnel'] ?> </h5>
+							<?php } ?>
+							<?php if (!empty($info['SiretProfessionnel'])) {  ?>
+								<h4>Votre Offre : </h4>
+								<h5><?= $info['OffreProfessionnel'] ?> </h5>
+							<?php } ?>
 						<?php } ?>
 
 						<a href="modifcompte.php?id=<?= $id; ?>" id="btnModif">Modifier informations compte</a>
@@ -101,24 +101,145 @@
 		</div>
 		<div class="container-infoGraph">
 			<h2>Mes indicateurs :</h2>
-			<ul>
-				<li>
-					<div>
-
+			<div class="containerGraph">
+				<div class="graph" class="half">
+					<div class="content">
+						<div class="wrapper"><canvas id="chart"></canvas></div>
 					</div>
-				</li>
-				<li>
-					<div>
 
-					</div>
-				</li>
-				<li>
-					<div>
+					<?php
+					// récupérer les valeurs en bado
+					$dataevo1 = 11;
+					$dataevo2 = 20;
+					$dataevo3 = 29;
+					$dataevo4 = 35;
+					$dataevo5 = 45;
+					$dataevo6 = 50;
+					$dataevo7 = 60;
+					$dataevo8 = 70;
+					$dataevo9 = 90;
+					$dataevo10 = 80;
+					$dataevo11 = 60;
+					$dataevo12 =75;
+					?>
+					<script>
+						var dataevo1 = <?php echo $dataevo1; ?>;
+						var dataevo2 = <?php echo $dataevo2; ?>;
+						var dataevo3 = <?php echo $dataevo3; ?>;
+						var dataevo4 = <?php echo $dataevo4; ?>;
+						var dataevo5 = <?php echo $dataevo5; ?>;
+						var dataevo6 = <?php echo $dataevo6; ?>;
+						var dataevo7 = <?php echo $dataevo7; ?>;
+						var dataevo8 = <?php echo $dataevo8; ?>;
+						var dataevo9 = <?php echo $dataevo9; ?>;
+						var dataevo10 = <?php echo $dataevo10; ?>;
+						var dataevo11 = <?php echo $dataevo11; ?>;
+						var dataevo12 = <?php echo $dataevo12; ?>;
 
-					</div>
-				</li>
-			</ul>
+						var presets = window.chartColors;
+						var utils = Samples.utils;
+						var inputs = {
+							min: -100,
+							max: 100,
+							count: 12,
+							decimals: 2,
+							continuity: 1
+						};
+
+						function generateLabels(config) {
+							return utils.months(Chart.helpers.merge({
+								count: inputs.count,
+								section: 3
+							}, config || {}));
+						}
+
+						var options = {
+							maintainAspectRatio: true,
+							spanGaps: false,
+							elements: {
+								line: {
+									tension: 0.000001
+								}
+							}
+						};
+
+						new Chart('chart', {
+							type: 'line',
+							data: {
+								labels: generateLabels(),
+								datasets: [{
+									backgroundColor: utils.transparentize(presets.red),
+									borderColor: presets.red,
+									data: [dataevo1, dataevo2, dataevo3, dataevo4, dataevo5, dataevo6, dataevo7, dataevo8, dataevo9, dataevo10, dataevo11, dataevo12],
+									label: 'Interventions',
+									fill: 'start'
+								}]
+							},
+							options: Chart.helpers.merge(options, {
+								title: {
+									text: 'fill: start',
+									display: false
+								}
+							})
+						});
+					</script>
+				</div>
+				<ul id="infoGen">
+					<li>
+						<div class="info">
+							<div class="infoTitle">
+								<h3>C.A. du mois</h3>
+							</div>
+							<div class="infoNumber">
+								<h4>0€</h4>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="info">
+							<div class="infoTitle">
+								<h3>Taux de rentabilité</h3>
+							</div>
+							<div class="infoNumber">
+								<h4>0%</h4>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="info">
+							<div class="infoTitle">
+								<h3>Nombre d'interventions</h3>
+							</div>
+							<div class="infoNumber">
+								<h4>0</h4>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+
+			<div class="containerGraph">
+				<div class="tiers" style="width: 30%;">
+					<?php
+					$rentabilite = 95;
+					$prevision = 75;
+					$pointmort = 60;
+					$nbheures = 85;
+					?>
+					<h4>Rentabilité</h4>	
+					<progress id='progressrentabilite' max='100' value="<?= $rentabilite ?>" style='width: 100%'></progress>
+					<h4>Prévision</h4>
+					<progress id='progressprevision' max='100' value=" <?= $prevision ?>" style='width: 100%'></progress>
+					<h4>Point mort</h4>
+					<progress id='progresspointmort' max='100' value="<?= $pointmort ?>" style='width: 100%'></progress>
+					<h4>Nombre d'heures</h4>
+					<progress id='progressnbheures' max='100' value="<?= $nbheures ?>" style='width: 100%'></progress>
+				
+				</div>
+			</div>
 		</div>
+	</div>
 	</div>
 </body>
 

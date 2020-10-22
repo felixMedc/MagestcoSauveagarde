@@ -39,13 +39,24 @@ form#contactForm {
 div#infoContact {
     width: 50%;
     margin-left: 25px;
-    background-color: #F4A261;
+    border-radius: 5px;
 }
 
-div#infoContact ul {}
+div#infoContact ul {
+    height: 50%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
 
 div#infoContact ul li {
-    list-style: none;
+    list-style-type: none;
+    color: black;
+    font-weight: 500;
+}
+
+div#infoContact ul li::marker {
+    display: none;
 }
 
 .globalContainerForm form#contactForm .group-input {
