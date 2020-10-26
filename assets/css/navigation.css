@@ -68,12 +68,11 @@ nav#navbar div#container-navbar div#logo-navbar {
 }
 
 nav#navbar div#container-navbar div#logo-navbar a {
-    padding: 10px;
+    margin: 20px 0px;
 }
 
 nav#navbar div#container-navbar div#logo-navbar a img {
-    width: 100px;
-    height: 100px;
+    width: 125px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -159,19 +158,19 @@ nav#navbar div#container-navbar .container-burger a img {
     width: 100%;
     display: flex;
     flex-direction: row;
+    margin: 10px;
 }
 
 #container-menuMobile .container-logo .logo {
     width: 50%;
     display: flex;
     justify-content: flex-start;
-    margin-left: 10px;
     align-items: center;
 }
 
 #container-menuMobile .container-logo .logo img {
-    width: 100px;
-    height: 100px;
+    width: 125px;
+ 
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -183,7 +182,7 @@ nav#navbar div#container-navbar .container-burger a img {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 #container-menuMobile .container-logo .btn-closeMenu a#burger-closeResponsiveMenu {

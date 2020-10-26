@@ -1,0 +1,34 @@
+------  Navigation : Presentation /  Solutions /  Contact / Compte  -------
+
+- Proposer Nouveau Logo si possible !! 
+ 
+- Gestion Cookies.
+
+- Page Accueil : 
+	- Avis Client :
+		- Rajouter un commentaire ou revoir le script JS
+	- Revoir Présentation solutions
+
+- Page Présentation 	
+	- Rajouter image  	
+- Page Contact 
+	- Formulaire
+	- Icone et informations 
+- Page Solutions : 
+	- Refaire la page !!! maquette en cours 
+	- Regrouper solutions rdv et déplacements
+	- Icone 
+
+(idée : Bande en haut qui récupére les clics qui? comment? pourquoi? avec apparition du block avec animation VOIR SITE : https://www.captaincontrat.com/)
+
+
+
+
+
+Une fois connecté à la plateforme : 
+
+- Page dashboard : 
+	
+- Page ModifCompte : 
+	-  REGEX A FAIRE  
+
