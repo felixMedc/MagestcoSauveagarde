@@ -15,6 +15,9 @@
 <body>
     <?php include '../include/include-navigation.php' ?>
 
+    <div class="logo">
+        <img src="../assets/img/logo/logopres.svg" alt="">
+    </div>
 
     <section id="presentation">
         <div class="container-presentation">

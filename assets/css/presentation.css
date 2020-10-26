@@ -2,6 +2,23 @@ body, html {
     font-family: 'Roboto', sans-serif;
 }
 
+div.logo {
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    background-image: url('../img/logo/pres.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+div.logo img {
+    width: 150px;
+}
+
 .container-presentation, .container-clients {
     width: 80%;
     margin: 50px auto;
@@ -56,8 +73,7 @@ body, html {
     align-items: center;
 }
 
- 
 .container-clients .module-clients .client a img {
- width: 100%;
- height: auto;
+    width: 100%;
+    height: auto;
 }
