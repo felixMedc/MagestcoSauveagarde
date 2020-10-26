@@ -161,14 +161,14 @@ nav#navbar div#container-navbar .container-burger a img {
     margin: 10px;
 }
 
-#container-menuMobile .container-logo .logo {
+#container-menuMobile .container-logo .logo-mobile {
     width: 50%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-#container-menuMobile .container-logo .logo img {
+#container-menuMobile .container-logo .logo-mobile img {
     width: 125px;
  
     background-size: contain;

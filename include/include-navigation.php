@@ -18,7 +18,7 @@
 
 	<div id="container-menuMobile">
 		<div class="container-logo">
-			<div class="logo">
+			<div class="logo-mobile">
 				<a href="../index.php"><img  src="../assets/img/logo/Logo.svg" alt=""></a>
 			</div>
 			<div class="btn-closeMenu">
