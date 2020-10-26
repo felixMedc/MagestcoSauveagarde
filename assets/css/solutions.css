@@ -1,218 +1,106 @@
  body, html {
-  font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif;
    scroll-behavior: smooth;
  }
- 
-  details ul li {
-   margin: 10px 0px;
+
+ .containerSolution:nth-child(odd) {
+   background-color: #fafafa;
+   padding: 50px 0px;
  }
 
- .navbar-solutions {
-   background-color: #F4A261;
-   color: white;
-   width: 50px;
-   position: fixed;
-   top: 150px;
-   z-index: 100;
-   border-radius: 0px 5px 5px 0px;
-   box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.226);
+ .containerSolution:nth-child(even) {
+   background-color: white;
+   padding: 50px 0px;
  }
 
- .navbar-solutions ul {
+ .solution {
+   font-weight: 500;
+   width: 60%;
+   margin: 50px auto;
    display: flex;
-   width: 100%;
    flex-direction: column;
    justify-content: center;
-   align-items: center;
  }
 
- .navbar-solutions li {
-   list-style: none;
-   width: 100%;
-   display: flex;
-   margin: 0;
-   justify-content: center;
- }
-
- .navbar-solutions li:hover, .active {
-   background-color: #06CCD6;
- }
-
- .navbar-solutions li img {
-   width: 50px;
-   height: 50px;
- }
-
- .global-containerSolutions {
-   width: 80%;
-   margin: 0 auto;
- }
-
- .global-containerSolutions h2 {
-   text-align: center;
-   margin: 50px 0px 0px 0px;
-   text-transform: uppercase;
+ .solution h2 {
    color: #F4A261;
+   font-weight: bold;
+   padding: 10px;
+   font-size: 30px;
  }
-
- .container-listSolutions {
-   width: 100%;
- }
-
- .container-listSolutions .solution {
-   width: 100%;
-   min-height: 600px;
+ .solution .navigationSolution ul {
    display: flex;
+   justify-content: space-evenly;
    flex-direction: row;
-   position: relative;
-   padding: 150px 0px;
  }
 
- .container-listSolutions .solution:nth-child(even)::after {
-   content: "";
-   width: 100%;
-   height: 2px;
-   background-color: #F4A261;
-   position: absolute;
-   bottom: 0;
-   right: 0;
- }
-
- .container-listSolutions .solution:nth-child(odd)::before {
-   content: "";
-   width: 100%;
-   height: 2px;
-   background-color: #F4A261;
-   position: absolute;
-   bottom: 0;
-   left: 0;
- }
-
- .container-listSolutions .solution:last-child::after {
-   content: "";
-   width: 0;
-   height: 0;
-   background-color: #F4A261;
-   position: absolute;
-   bottom: 0;
-   left: 0;
- }
-
- .container-listSolutions .solution:nth-child(even) .img-solution {
-   order: 2;
-   justify-content: center;
- }
-
- .container-listSolutions .solution:nth-child(even) .text-solution {
-   order: 1;
-   margin-right: 50px;
- }
-
- .container-listSolutions .solution:nth-child(odd) .text-solution {
-   margin-left: 50px;
- }
-
- .container-listSolutions .solution:nth-child(odd) .img-solution {
-   justify-content: center;
- }
-
- .container-listSolutions .solution .img-solution {
-   width: 30%;
-   max-height: 300px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.226);
+ .solution .navigationSolution ul li {
+   list-style-type: none;
+   width: 20%;
+   margin: 10px;
    border-radius: 5px;
  }
 
- .container-listSolutions .solution .img-solution img {
-   width: 200px;
-   height: 200px;
+ .solution .navigationSolution ul li button {
+   text-decoration: none;
+   opacity: 1;
+   padding: 10px 20px;
+   text-align: center;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 18px;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   display: block;
+   font-weight: 500;
+   box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.226);
+ }
+
+ .solution .navigationSolution ul li button:hover {
+   background-color: #06CCD6;
+   color: white;
+ }
+
+ .solutionText {
+   display: none;
+ }
+
+ .solutionIsActive {
+   background-color: #06CCD6;
+   color: white;
+   border-radius: 5px;
+ }
+
+ .containerAnimationText {
+   position: relative;
+   animation: test 300ms ease-in-out both;
+   display: block;
+   width: 100%;
+   color: black;
+   min-height: auto;
    padding: 10px;
  }
 
- .container-listSolutions .solution .text-solution {
-   width: 70%;
-   padding: 0px 10px;
- }
-
- .container-listSolutions .solution .text-solution h3 {
-   font-size: 25px;
-   text-transform: uppercase;
-   color: #F4A261;
- }
-
- .container-listSolutions .solution .text-solution details {
-   max-height: 250px;
-   overflow: auto;
- }
-
- .container-listSolutions .solution .text-solution details summary {
-   color: #06CCD6;
-   font-weight: bold;
-   cursor: pointer;
+ .solution .containerSolutionText .solutionText .containerAnimationText ul {
    margin: 5px 0px;
-   padding: 10px 0px;
+ }
+
+ .solution .containerSolutionText .solutionText .containerAnimationText ul li {
+   list-style: disc;
+   margin: 5px 0px;
+   margin-left: 30px;
    border-radius: 5px;
  }
 
- .container-listSolutions .solution .text-solution h3 {
-   margin-bottom: 10px;
- }
-
- .container-listSolutions .solution .text-solution p {
-   color: black;
-   font-weight: 500;
-   margin: 10px 0px;
- }
-
- @media screen and (max-width:1024px) {
-   .container-listSolutions .solution:nth-child(even) .text-solution {
-     order: inherit;
+ @keyframes test {
+   from {
+     opacity: 0;
+     top: 5px;
    }
-   .container-listSolutions .solution:nth-child(even) .img-solution {
-     order: inherit;
-   }
-   .container-listSolutions .solution:nth-child(odd) .text-solution {
-     margin: 0;
-     margin-top: 25px;
-   }
-   .container-listSolutions .solution:nth-child(even) .text-solution {
-     margin: 0;
-     margin-top: 25px;
-   }
-   .container-listSolutions .solution {
-     flex-direction: column;
-   }
-   .container-listSolutions .solution .img-solution {
-     width: 100%;
-   }
-   .container-listSolutions .solution .text-solution {
-     width: 100%;
-   }
- }
-
- @media screen and (max-width:425px) {
-   .global-containerSolutions {
-     width: 90%;
-   }
-   .navbar-solutions {
-     display: none;
-   }
-   .container-listSolutions .solution {
-     padding: 50px 0px;
-   }
-   .container-listSolutions .solution .text-solution {
-     padding: 0;
-   }
- }
-
- @media screen and (max-height:675px) {
-   .navbar-solutions {
-     display: none;
-   }
-   .container-listSolutions .solution {
-     padding: 50px 0pxs;
+   to {
+     opacity: 1;
+     top: 0;
    }
  }

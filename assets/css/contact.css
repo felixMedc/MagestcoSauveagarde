@@ -2,95 +2,105 @@ body, html {
     font-family: 'Roboto', sans-serif;
 }
 
-.globalContainerForm {
-    width: 100%;
-    padding: 50px 0px;
+::selection {
+    background-color: none!important;
+    color: none!important;
 }
 
-#containerContactInfo {
-    width: 60%;
-    margin: 0 auto;
-}
-
-.globalContainerForm div.title {
-    margin: 20px auto;
+#contact {
     width: 100%;
 }
 
-.globalContainerForm div.title h2 {
-    color: #F4A261;
+.title {
+    width: 100%;
+    background-color: #F4A261;
+    text-align: center;
+    color: white;
+    padding: 30px 0px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.containerForm {
+#contact .containerContactForm {
+    width: 60%;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#contact .containerContactForm #contactForm {
     width: 100%;
     margin: 0 auto;
-    display: flex;
 }
 
-form#contactForm {
+#contact .containerContactForm #contactForm .group-input {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    margin: 0 auto;
+    margin: 15px 0px;
+}
+
+#contact .containerContactForm #contactForm .group-input label {
+    margin: 5px 0px;
+}
+
+#contact .containerContactForm #contactForm .group-input input, textarea, button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #ececec;
+}
+
+#contact .containerContactForm #contactForm .group-input button {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #F4A261;
+    color: white;
+}
+
+#contact .containerContactForm #contactForm .group-input .error {
+    color: red;
+    font-weight: bold;
+    margin-top: 5px;
 }
 
 div#infoContact {
-    width: 50%;
-    margin-left: 25px;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
     border-radius: 5px;
+    min-height: 250px;
 }
 
 div#infoContact ul {
-    height: 50%;
+    width: 30%;
     list-style-type: none;
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    background-color: #F4A261;
+    color: white;
+}
+
+iframe {
+    width: 70%;
 }
 
 div#infoContact ul li {
     list-style-type: none;
-    color: black;
+    color: white;
     font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
 }
 
 div#infoContact ul li::marker {
     display: none;
 }
 
-.globalContainerForm form#contactForm .group-input {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.globalContainerForm form#contactForm .group-input label {
-    margin: 5px 0px;
-    font-weight: 500;
-}
-
-.globalContainerForm form#contactForm .group-input input {
-    border: none;
-    padding: 10px 15px;
-    background-color: rgb(233, 233, 233);
-    border-radius: 5px;
-}
-
-.globalContainerForm form#contactForm .group-input textarea {
-    border: none;
-    padding: 10px 15px;
-    background-color: rgb(233, 233, 233);
-    border-radius: 5px;
-}
-
-.globalContainerForm form#contactForm .group-input button#submitContact {
-    border: none;
-    padding: 10px 15px;
-    background-color: #F4A261;
-    color: white;
-    font-weight: 600;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
+div#infoContact ul li img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
 }

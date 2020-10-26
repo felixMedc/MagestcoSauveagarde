@@ -17,92 +17,58 @@
 
 
     <section id="presentation">
-        <div class="container">
-
+        <div class="container-presentation">
             <h2>Qui sommes nous ? </h2>
-            <p>
-                <strong>MAGESTCO</strong> est un service dédié aux professionnels de la maintenance, artisans, ou tous métiers avec tournées.<br>
-                Nous proposons également nos solutions aux entreprises ayant pour activité la gestion de logements, ou gestion commerciale en général.<br>
-                Nous nous inspirons de vos expériences, de vos problématiques pour développer des outils adaptés, intuitifs et collaboratifs.<br> Notre but : vous libérer du temps et vous faciliter au quotidien la vie d’entreprise.
-            </p>
-            <ul>
-                <p>Pour aller plus loin dans l’accompagnement des professionnels, nous avons décidé de proposer et dispenser des formations, telles que :</p>
-                <li>Le diagnostic numérique</li>
-                <li>L’accompagnement au développement numérique</li>
-                <li>La mise en conformité RGPD</li>
 
-            </ul>
+            <p>Une équipe d’experts, chacun dans leur domaine s’est réunie autour d’une idée fixe : faire gagner du temps aux entreprises. <br>
+                Pour cela, ils utilisent les dernières technologies et réalisentune veille documentaire.</p>
+            <h3>Notre Activité :</h3>
+            <p> Nous proposons nos solutions aux entreprises ayant besoin de gagner du temps et des clients.
+                Nous nous inspirons de vos expériences, de vos problématiques pour développer des outils adaptés, intuitifs et collaboratifs.</p>
             <ul>
-                <p>Et parce qu’une entreprise florissante est une entreprise qui prend soin de ses clients, nous avons également pensé à eux :</p>
-                <li>Plus de facilité à trouver les professionnels dont ils ont besoin</li>
-                <li>prise de rendez-vous</li>
-                <li>paiements en ligne</li>
-                <li>mise à disposition des documents liés aux interventions effectuées chez eux depuis leur espace sécurisé.</li>
+                <h3>Notre But :</h3>
+                <p>Vous libérer du temps et vous faciliter au quotidien la vie et la gestion d’entreprise.
+                    Pour aller plus loin dans l’accompagnement des professionnels, nous avons décidé de proposer et de dispenser des formations, telles que:</p>
+                <li> Comment appréhender les réseaux sociaux ?</li>
+                <li> L’accompagnement au développement numérique</li>
+                <li> La législation en entreprise et ses logiciels</li>
+                <li> Adapter une GMAO dans son entreprise.</li>
             </ul>
+            <p> Et parce qu’une entreprise florissante est une entreprise qui prend soin de ses clients,
+                nous vous apportons nos connaissances dans le domaine de la relation client.</p>
             <ul>
-                <h3>Nos Valeurs : </h3>
-                <li> <strong>L’écoute :</strong> Pour vous apporter une satisfaction optimale, nous prenons le temps de comprendre vos besoins.
+                <h3>Nos valeurs:</h3>
+                <li> L’écoute : Pour vous apporter une satisfaction optimale, nous prenons le temps de comprendre vos besoins.</li>
+                <li> L’accompagnement : Nous sommes là pour vous conseiller au mieux en fonction des besoins de votre structure et de vos équipes.</li>
+                <li> Le partage des connaissances : Si vous souhaitez faire évoluer votre entreprise,
+                    nous vous y aiderons grâce à une formation personnalisée.
                 </li>
-                <li><strong>L’accompagnement :</strong> Nous sommes là pour vous conseiller au mieux en fonction des besoins de votre structure et de vos équipes.
+                <li> La satisfaction :
+                    Nous mettons tout en œuvre pour vous garantir la réussite de votre projet.
                 </li>
-                <li><strong>Le partage des connaissances :</strong> Si vous souhaitez faire évoluer votre entreprise vers le numérique, nous vous y aiderons grâce à une formation personnalisée.
-                </li>
-                <li><strong>La satisfaction : </strong>Nous mettons tout en œuvre pour vous garantir la réussite de votre projet de transition numérique.
-                </li>
-                <li><strong>L’écologie : </strong>Parce que c’est l’affaire de tout un chacun, nous espérons faire prendre conscience à nos clients et partenaires que l’option zéro papier n’est désormais plus une utopie, avec l’aide de la gestion dématérialisée. <br> De plus en optimisant vos trajets, vous réduirez significativement votre empreinte carbone.
+                <li> L’écologie : Parce que c’est l’affaire de tout un chacun,
+                    le «zéro papier» n’est désormais plus une utopie et insidspensable dans le contexte sanitaire actuel.
                 </li>
             </ul>
+
 
         </div>
     </section>
-
+<!-- 
     <section id="clients">
         <div class="container-clients">
             <h2>Nos Principaux Clients / Références :</h2>
             <div class="module-clients">
                 <div class="client">
                     <div class="img-container">
-                        <a href=""><img src="../assets/img/clients/geothermique.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="client">
-                    <div class="img-container">
-                        <a href=""><img src="../assets/img/clients/geothermique.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="client">
-                    <div class="img-container">
-                        <a href=""><img src="../assets/img/clients/geothermique.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="client">
-                    <div class="img-container">
-                        <a href=""><img src="../assets/img/clients/geothermique.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="client">
-                    <div class="img-container">
-                       <a href=""> <img src="../assets/img/clients/geothermique.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="client">
-                    <div class="img-container">
-                    <a href=""><img src="../assets/img/clients/geothermique.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="client">
-                    <div class="img-container">
-                    <a href=""><img src="../assets/img/clients/geothermique.png" alt=""></a>
-                    </div>
-                </div>
-                <div class="client">
-                    <div class="img-container">
-                    <a href=""><img src="../assets/img/clients/geothermique.png" alt=""></a>
+
+                        <img src="../assets/img/clients/geothermique.png" alt="">
+
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <?php include '../include/include-footer.php' ?>
     <script src="../assets/js/script-responsiveMenu.js"></script>

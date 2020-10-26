@@ -138,10 +138,16 @@ footer div.footer-bottom h4 {
     footer .global-container-footer {
     width: 90%;
     }
-    footer div.container-footer .footer-navigation {
-        flex-direction: column;
-    }
     footer div.container-footer .footer-navigation li {
     line-height: 25px;
+    }
+}
+
+
+
+@media screen and (max-width:500px) 
+{
+    footer div.container-footer .footer-navigation {
+        flex-direction: column;
     }
 }

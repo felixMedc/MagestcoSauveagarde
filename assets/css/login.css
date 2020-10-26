@@ -41,6 +41,7 @@ html, body {
     scroll-behavior: smooth;
 }
 
+
 input:focus {
     outline-color: #F4A261;
 }
@@ -144,7 +145,7 @@ a.btn {
 
 .global-containerForm .containerForm #FormLogin .global-container-input .group-input .container-input input {
     border: none;
-    background-color: whitesmoke;
+    background-color: #ececec;
     width: 100%;
     height: auto;
     padding: 10px 15px;

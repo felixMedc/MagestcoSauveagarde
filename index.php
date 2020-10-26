@@ -37,44 +37,47 @@
 
 	<section id="prestation">
 		<div class="container-prestation">
-
 			<div class="left-prestation">
 				<h2>Nos prestations</h2>
 				<p><strong>Magestco</strong> vous propose des services d’accompagnements et de formations <br>
-					pour développer votre activité, respecter la loi et gagner en productivité.</p>
-				<p><strong>De nombreuses loi sont apparues depuis quelques années</strong> règlementant tout un ensemble de votre activité,
+					pour développer votre activité, respecter la loi et gagner en productivité. <br>
+					De nombreuses loi sont apparues depuis quelques années règlementant tout un ensemble de votre activité,
 					c’est pourquoi nous intervenons pour vous maintenir à jour dans vos obligations.</p>
 				<p><strong>Une équipe dynamique</strong> à votre service qui vous proposera des solutions correspondant à vos besoins.</p>
-				<a href="" class="btn">Demander votre devis</a>
+				<div class="groupBtn">
+					<a href="">Formations</a>
+					<a href="">GMAO</a>
+					<a href="">Gestion Clients</a>
+				</div>
 			</div>
 			<div class="right-prestation">
 				<img src="assets/img/icone-prestations-blue.svg" alt="">
 			</div>
-
 			<div class="listmodule">
 				<div class="module">
-					<h3>Solution SAAS</h3>
+					<h3>Formations</h3>
 					<ul>
-						<li>Gestion des déplacements</li>
-						<li>Gestion des encaissements</li>
-						<li>Gestion des clients</li>
-						<li>GMAO</li>
+						<li>Logiciels</li>
 						<li>Gestion des plannings</li>
+						<li>Législation</li>
+						<li>Réseaux sociaux / visibilité </li>
+						<li>Accompagnement au numérique</li>
 					</ul>
 				</div>
 				<div class="module">
-					<h3>Outils sur mesure</h3>
+					<h3>Solutions sur mesure</h3>
 					<ul>
+						<li>GMAO</li>
 						<li>Outils de pilotage</li>
-						<li>Transitions au numérique</li>
-						<li>Dématérialisation complète de l'activité </li>
+						<li>Dématérialisation complète</li>
 					</ul>
 				</div>
 				<div class="module">
-					<h3>Solution RH</h3>
+					<h3>Gestion RH</h3>
 					<ul>
 						<li>Gestion des appels</li>
-						<li>Gestion des contrats</li>
+						<li>Gestion des clients</li>
+						<li>Gestion des portefeuilles</li>
 					</ul>
 				</div>
 			</div>
@@ -91,10 +94,10 @@
 									<img src="assets/img/icone-accompagnementNumerique" alt="">
 								</div>
 								<div class="commentary-body">
-									<h3>Accompagnement numérique</h3>
+									<h4>Accompagnement numérique</h4>
 								</div>
 								<div class="commentary-footer">
-									<h3>M.LETHUILLIERS</h3>
+									<h5>M.LETHUILLIERS</h5>
 									<p>"Encore merci pour l'accompagnement"</p>
 								</div>
 							</div>
@@ -106,10 +109,10 @@
 								</div>
 								<div class="commentary-body">
 
-									<h3>Gestion planning</h3>
+									<h4>Gestion planning</h4>
 								</div>
 								<div class="commentary-footer">
-									<h3>M.LEROUX</h3>
+									<h5>M.LEROUX</h5>
 									<p>"Une solution simple et pratique"</p>
 								</div>
 							</div>
@@ -121,10 +124,10 @@
 								</div>
 								<div class="commentary-body">
 
-									<h3>Gestion externalisée</h3>
+									<h4>Gestion externalisée</h4>
 								</div>
 								<div class="commentary-footer">
-									<h3>M.JAGUIN</h3>
+									<h5>M.JAGUIN</h5>
 									<p>"Equipe dynamique et réactive, toujours une solution à apporter"</p>
 								</div>
 							</div>
@@ -132,13 +135,13 @@
 						<div class="commentary-wrapper">
 							<div class="commentary-stucture">
 								<div class="commentary-header">
-									<img src="assets/img/icone-gestionExterne.svg" alt="">
+									<img src="assets/img/icone-formation.svg" alt="">
 								</div>
 								<div class="commentary-body">
-									<h3>Formation</h3>
+									<h4>Formation</h4>
 								</div>
 								<div class="commentary-footer">
-									<h3>Mme PALLAVEE</h3>
+									<h5>Mme PALLAVEE</h5>
 									<p>"Super instructif"</p>
 								</div>
 							</div>
@@ -146,14 +149,12 @@
 						<div class="commentary-wrapper">
 							<div class="commentary-stucture">
 								<div class="commentary-header">
-									<h3>logo entreprise ou outils</h3>
 								</div>
 								<div class="commentary-body">
-
-									<h3>Outils utilisé</h3>
+									<h4>Outils utilisé</h4>
 								</div>
 								<div class="commentary-footer">
-									<h3>nom entreprise</h3>
+									<h5>nom entreprise</h5>
 									<p>"commentaire"</p>
 								</div>
 							</div>
@@ -177,9 +178,10 @@
 	</section>
 
 	<section id="responsive-apps">
-		<div id="list-responsive">
+		<div class="title">
 			<h2>Sites Web, applications tout terrain, on développe ...</h2>
-
+		</div>
+		<div id="list-responsive">
 			<div class="responsive-module">
 				<div class="left-responsive">
 					<div class="container-img">
@@ -219,7 +221,7 @@
 
 	<?php include 'include/include-footer.php' ?>
 
-	<div class="container-contact">
+	<!-- <div class="container-contact">
 		<div class="contact-container-btn">
 			<a title="contact-btn" id="btn-contactform"><img src="assets/img/icone-contact.svg" alt=""></a>
 		</div>
@@ -236,12 +238,12 @@
 				<button type="submit" class="btn-contact-form">Envoyer</button>
 			</form>
 		</div>
-	</div>
+	</div> -->
 
 
 
 
-	<script src="assets/js/script-contact.js"></script>
+	<!-- <script src="assets/js/script-contact.js"></script> -->
 	<script src="assets/js/script-slider.js"></script>
 	<script src="assets/js/script-responsiveMenu.js"></script>
 </body>

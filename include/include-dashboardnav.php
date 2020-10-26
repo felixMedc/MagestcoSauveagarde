@@ -8,6 +8,7 @@
             <li><a href="redirection.php?id=<?= $id ?>" target="_blank">Mon logiciel</a></li>
             <li><a href="services.php?id=<?= $id; ?>">Mes services</a></li>
             <li><a href="mooc.php?id=<?= $id; ?>">Mes formations</a></li>
+            <li><a href="../../index.php">Deconnexion</a></li>
         </ul>
     </div>
 </nav>

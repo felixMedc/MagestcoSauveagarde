@@ -34,7 +34,7 @@ html, body {
     min-height: 100%;
     box-sizing: border-box;
     display: block;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     transition: all 0.5s;
     position: relative;
     border: none;

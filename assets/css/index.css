@@ -64,6 +64,25 @@ a.btn {
     transition: ease-in-out 0.25s;
 }
 
+h2 {
+    font-size: 30px;
+    color: #F4A261;
+}
+
+h3 {
+    font-size: 25px;
+    color: #F4A261;
+}
+
+h4 {
+    font-size: 20px;
+    color: #F4A261;
+}
+
+h5 {
+    font-size: 18px;
+}
+
 a.btn:hover {
     background-color: #fab277;
 }
@@ -116,7 +135,7 @@ section#presentation div#container-presentation div.right-pres h1 {
 
 section#presentation div#container-presentation div.right-pres h2 {
     margin-left: 20px;
-    font-size: 30px;
+    color: white
 }
 
 section#presentation div#container-presentation div.right-pres p {
@@ -126,7 +145,7 @@ section#presentation div#container-presentation div.right-pres p {
 }
 
 section#presentation div#container-presentation div.right-pres p strong {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 section#presentation div#container-presentation div.right-pres .container-btn {
@@ -155,7 +174,7 @@ section#prestation div.container-prestation .right-prestation {
 }
 
 section#prestation div.container-prestation .right-prestation img {
-    width: 100%;
+    width: 80%;
     height: auto;
     background-size: auto;
     background-position: center;
@@ -170,19 +189,37 @@ section#prestation div.container-prestation .left-prestation {
     justify-content: space-evenly;
 }
 
-section#prestation div.container-prestation .left-prestation h2 {
-    font-size: 30px;
-    color: #F4A261;
-}
-
 section#prestation div.container-prestation .left-prestation p {
-    font-weight: 400;
+    font-weight: 500;
     color: #363636;
-    margin: 10px 0px;
 }
 
 section#prestation div.container-prestation .left-prestation p a {
     display: inline-block;
+}
+
+section#prestation div.container-prestation .left-prestation .groupBtn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+section#prestation div.container-prestation .left-prestation .groupBtn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4A261;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    margin-right: 25px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+section#prestation div.container-prestation .left-prestation .groupBtn a:hover {
+    background-color: #fab277;
 }
 
 section#prestation div.container-prestation div.listmodule {
@@ -191,20 +228,8 @@ section#prestation div.container-prestation div.listmodule {
     margin: 0 auto;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: 50px;
     position: relative;
-}
-
-section#prestation div.container-prestation div.listmodule:before {
-    content: "";
-    height: 2px;
-    background-color: #e7e7e6;
-    margin: 0 auto;
-    width: 40%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -75px;
 }
 
 section#prestation div.container-prestation div.listmodule .module {
@@ -213,10 +238,7 @@ section#prestation div.container-prestation div.listmodule .module {
 }
 
 section#prestation div.container-prestation div.listmodule .module h3 {
-    color: #F4A261;
-    text-transform: uppercase;
     margin-bottom: 20px;
-    font-size: 30px;
 }
 
 section#prestation div.container-prestation div.listmodule .module ul {
@@ -234,7 +256,7 @@ section#prestation .container-prestation .global-container-commentary {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 section#prestation .container-prestation .global-container-commentary:before {
@@ -250,8 +272,6 @@ section#prestation .container-prestation .global-container-commentary:before {
 }
 
 section#prestation .container-prestation .global-container-commentary h2 {
-    color: #F4A261;
-    font-size: 30px;
     text-align: center;
     margin-bottom: 25px;
 }
@@ -331,7 +351,7 @@ section#prestation .container-prestation .container .container-commentary .comme
 
 section#prestation .container-prestation .container .container-commentary .commentary-wrapper .commentary-stucture {
     width: 90%;
-    height: 400px;
+    height: 300px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -352,7 +372,7 @@ section#prestation .container-prestation .container .container-commentary .comme
 }
 
 section#prestation .container-prestation .container .container-commentary .commentary-wrapper .commentary-stucture .commentary-header img {
-    width: 125px;
+    width: 100px;
     background-position: center;
     margin: 0 auto;
 }
@@ -360,10 +380,6 @@ section#prestation .container-prestation .container .container-commentary .comme
 section#prestation .container-prestation .container .container-commentary .commentary-wrapper .commentary-stucture .commentary-body {
     width: 100%;
     padding: 10px;
-}
-
-.commentary-body h3 {
-    color: #F4A261;
 }
 
 section#prestation .container-prestation .container .container-commentary .commentary-wrapper .commentary-stucture .commentary-footer {
@@ -403,13 +419,14 @@ section#info div#container-info .btn-infos {
 }
 
 section#info div#container-info h3 {
-    font-size: 30px;
     margin: 10px 0px;
+    color: white;
 }
 
 section#info div#container-info p {
     margin: 10px 0px;
     font-size: 16px;
+    font-weight: 500;
 }
 
 section#offers {
@@ -419,10 +436,7 @@ section#offers {
 
 section#offers h2 {
     text-align: center;
-    color: #F4A261;
-    font-size: 30px;
     margin: 0 auto;
-    text-transform: uppercase;
     position: relative;
 }
 
@@ -488,10 +502,7 @@ section#offers #list-offers .offers-module .container-module .module-footer .off
 
 section#offers #list-offers .offers-module h3 {
     text-align: center;
-    color: #F4A261;
-    font-size: 25px;
     margin: 0 auto;
-    text-transform: uppercase;
     position: relative;
 }
 
@@ -500,46 +511,40 @@ section#responsive-apps {
     position: relative;
 }
 
-/* section#responsive-apps:before {
-    content: "";
-    height: 2px;
-    background-color: #e7e7e6;
-    margin: 0 auto;
-    width: 40%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -25px;
-} */
-
 #responsive-apps #list-responsive {
     width: 70%;
-    padding: 100px 0px;
+    padding: 0px 0px 100px 0px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 #responsive-apps #list-responsive h2 {
     text-align: center;
-    color: #F4A261;
-    font-size: 30px;
     margin: 0 auto;
     text-transform: uppercase;
     position: relative;
 }
+.title {
+    margin: 50px 0px;
+    text-align: center;
+}
 
 #responsive-apps #list-responsive .responsive-module {
-    width: 80%;
-    margin: 100px auto;
+    width: calc(33.3% - 20px);
+    margin: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
+#responsive-apps #list-responsive .responsive-module .left-responsive {
+    margin-bottom: 20px;
+}
+
 #responsive-apps #list-responsive .responsive-module .left-responsive .container-img {
-    background-color: white;
-    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.226);
-    border-radius: 5%;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -550,25 +555,20 @@ section#responsive-apps {
     width: 150px;
     height: 150px;
     margin: 0 auto;
-    padding: 10px;
 }
 
 #responsive-apps #list-responsive .responsive-module .right-responsive {
-    margin-left: 50px;
     display: flex;
     flex-direction: column;
     justify-content: start;
+    text-align: center;
 }
 
 #responsive-apps #list-responsive .responsive-module .right-responsive h3 {
     margin-bottom: 25px;
-    text-transform: uppercase;
-    color: #F4A261;
-    font-size: 20px;
 }
 
 #responsive-apps #list-responsive .responsive-module .right-responsive p {
-    margin-bottom: 25px;
     max-width: 400px;
 }
 
@@ -689,7 +689,7 @@ div.container-contact #container-form form button.btn-contact-form {
 @media screen and (max-width:768px) {
     section#presentation div#container-presentation {
         flex-wrap: wrap;
-        padding: 100px 0px 150px 0px;
+        padding: 50px 0px 50px 0px;
     }
     section#presentation div#container-presentation div.left-pres {
         width: 100%;
@@ -706,6 +706,7 @@ div.container-contact #container-form form button.btn-contact-form {
     }
     section#presentation div#container-presentation div.right-pres h1 {
         margin-left: 0;
+        font-size: 35px;
     }
     section#presentation div#container-presentation div.right-pres p {
         margin-left: 0;
@@ -716,17 +717,16 @@ div.container-contact #container-form form button.btn-contact-form {
     section#presentation div#container-presentation div.right-pres .container-btn {
         margin-left: 0;
     }
+    section#prestation div.container-prestation {
+        padding: 50px 0px;
+    }
     section#prestation div.container-prestation .left-prestation {
         width: 100%;
         order: 2;
-        margin-top: 50px;
         padding: 0;
     }
     section#prestation div.container-prestation .right-prestation {
-        width: 100%;
-        order: 1;
-        justify-content: inherit;
-        align-items: inherit;
+        display: none;
     }
     section#prestation div.container-prestation .right-prestation img {
         width: 60%;
@@ -738,8 +738,12 @@ div.container-contact #container-form form button.btn-contact-form {
         width: calc(100% - 20px);
         margin: 10px;
     }
+    section#prestation div.container-prestation div.listmodule .module h3 {
+        margin-bottom: 0px;
+    }
     section#prestation .container-prestation .global-container-commentary {
         order: 4;
+        margin-top: 80px;
     }
     section#prestation .container-prestation .container .container-commentary {
         margin: 10px auto;
@@ -750,6 +754,9 @@ div.container-contact #container-form form button.btn-contact-form {
     }
     section#info div#container-info {
         padding: 40px 0px;
+    }
+    section#info div#container-info .btn-infos {
+        width: 100%;
     }
     #responsive-apps #list-responsive .responsive-module {
         flex-direction: column;
@@ -762,6 +769,10 @@ div.container-contact #container-form form button.btn-contact-form {
     #responsive-apps #list-responsive h2:after {
         display: none;
     }
+    #responsive-apps #list-responsive .responsive-module .left-responsive .container-img {
+        width: 100%;
+        border-radius: 0px;
+    }
     #responsive-apps #list-responsive .responsive-module .right-responsive {
         width: 80%;
         margin: 0px auto;
@@ -772,6 +783,17 @@ div.container-contact #container-form form button.btn-contact-form {
         max-width: inherit;
     }
 }
+
+@media screen and (max-width:600px) {
+    section#prestation div.container-prestation .left-prestation .groupBtn {
+        flex-direction: column;
+    }
+    section#prestation div.container-prestation .left-prestation .groupBtn a {
+        margin-right: 0px;
+        margin: 10px 0px;
+    }
+}
+
 @media screen and (max-width:425px) {
     section#presentation div#container-presentation {
         padding: 50px 0px;
@@ -788,8 +810,8 @@ div.container-contact #container-form form button.btn-contact-form {
     section#prestation .container-prestation .container #click-before {
         left: 0;
     }
-    section#info div#container-info .btn-infos {
-        width: 70%;
+    div.container-contact {
+        display: none;
     }
 }
 

@@ -1,94 +1,63 @@
 body, html {
     font-family: 'Roboto', sans-serif;
 }
-section#clients {
-    width: 100%;
-}
-section#presentation {
-    padding: 50px 0px;
-}
 
-section#presentation .container {
-    width: 80%;
-    margin: 0 auto;
-    
-}
-section#presentation .container h2 {
-    color: #F4A261;
-    font-size: 30px;
-    margin: 0 auto;
-    text-transform: uppercase;
-    position: relative;
-}
-
-section#presentation .container ul {
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-section#presentation .container ul li {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    margin-left: 25px;
-}
-
-section#presentation .container ul li strong {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-size: 18px;
-}
-
-.container-clients {
+.container-presentation, .container-clients {
     width: 80%;
     margin: 50px auto;
 }
 
-.container-clients h2 {
- 
-    color: #F4A261;
-    font-size: 30px;
-    margin: 0 auto;
+.container-presentation h2, .container-clients h2 {
     text-transform: uppercase;
-    position: relative;
+    color: #F4A261;
+}
+
+.container-presentation h3 {
+    font-weight: 600;
+}
+
+.container-presentation p {
+    margin: 25px 0px;
+    font-weight: 500;
+}
+
+.container-presentation ul li {
+    list-style: disc;
+    font-weight: 500;
+    margin: 10px 0px;
+    margin-left: 20px;
 }
 
 .container-clients .module-clients {
     width: 100%;
-    margin: 0 auto;
- 
+    margin: 25px auto;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: start;
-    align-items: center;
 }
 
 .container-clients .module-clients .client {
- 
-    width: calc(25% - 40px);
-    margin: 20px;
-    height: auto;
-    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.226);
+    width: calc(25% - 20px);
+    margin: 10px;
     background-color: white;
-    border-radius: 5px;
     transition: ease-in-out 0.25s;
-    filter: grayscale(0.30);
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.075);
 }
-.container-clients .module-clients .client:hover {
-    transform: scale(1.05);    
-    filter: grayscale(0);
-}
+
 .container-clients .module-clients .client .img-container {
- 
-    width:80%;
-    height: 150px;
+    width: 80%;
+    min-height: 150px;
+    height: auto;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
+ 
+.container-clients .module-clients .client a img {
+ width: 100%;
+ height: auto;
+}

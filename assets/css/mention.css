@@ -1,3 +1,8 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
 .container-mentions {
     width: 80%;
     margin: 50px auto;
@@ -15,6 +20,7 @@
     margin: 25px 0px;
     text-transform: uppercase;
 }
+
 .container-mentions P {
     line-height: 25px;
     font-weight: 500;
