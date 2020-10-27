@@ -22,7 +22,7 @@
 
         <h2>Mentions légales : </h2>
         <p>
-            L’ensemble de ce site relève des législations française et internationale sur le droit d’auteur et la propriété intellectuelle. 
+            L’ensemble de ce site relève des législations française et internationale sur le droit d’auteur et la propriété intellectuelle.
             Tous les droits de reproduction sont réservés, y compris pour les documents iconographiques et photographiques.<br>
 
             Les informations nominatives concernant l’utilisateur sont à usage interne du responsable de la publication.<br>
@@ -36,7 +36,7 @@
             <li><strong>Site réalisé par : MAGESTCO </strong></li>
             <li><strong>Responsable de la publication : MAGESTCO</strong></li>
             <li><strong>Numéro de SIREN : 890 019 847</strong></li>
-            <li><strong>Forme juridique de la société :</strong>  SAS </li>
+            <li><strong>Forme juridique de la société :</strong> SAS </li>
             <li><strong>Montant du capital social : </strong></li>
             <li><strong>Adresse postal : </strong> 5 place Léon Meyer - 76600 Le Havre</li>
             <li><strong>Adresse mail : </strong>vousavezuncourrier@magestco.com </li>
@@ -53,7 +53,7 @@
             <li><strong>Activité (Code NAF ou APE) :</strong> Traitement de données, hébergement et activités connexes (6311Z) </li>
         </ul>
 
-    
+
         <h3>I. Les principales lois concernée : </h3>
         <ul>
             <li>Règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016, relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, et abrogeant la directive 95/46/CE (règlement général sur la protection des données).</li>
@@ -90,7 +90,8 @@
         <ul>
             <li><a href="https://undraw.co/" target="_blank">Open source Illustration - Undraw</a></li>
             <li><a href="https://www.cnil.fr/" target="_blank">Site du CNIL</a></li>
-            <li><a href="https://www.cnil.fr/fr/comprendre-le-rgpd" target="_blank">CNIL - Loi RGPD</a></li>
+            <li><a href="https://www.cnil.fr/fr/comprendre-le-rgpd" target="_blank">Loi RGPD - CNIL</a></li>
+            <li><a href="https://www.flaticon.com/authors/freepik" title="Freepik">icone par Freepik </a></li>
         </ul>
     </div>
 

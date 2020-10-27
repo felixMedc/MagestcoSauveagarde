@@ -26,7 +26,7 @@ body, html {
     width: 60%;
     margin: 0px auto;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 #contact .containerContactForm #contactForm {
@@ -65,9 +65,11 @@ body, html {
 }
 
 div#infoContact {
-    width: 100%;
+    width: 60%;
+    margin: 0 auto;
     display: flex;
     margin-top: 50px;
+    margin-bottom: 50px;
     border-radius: 5px;
     min-height: 250px;
 }
@@ -77,7 +79,7 @@ div#infoContact ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
     background-color: #F4A261;
     color: white;
 }
@@ -103,4 +105,37 @@ div#infoContact ul li img {
     width: 30px;
     height: 30px;
     margin: 10px;
+}
+
+@media screen and (max-width:1600px) {
+  
+    div#infoContact {
+        flex-direction: column;
+    }
+    div#infoContact ul {
+        width: 100%;
+    }
+    div#infoContact iframe {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1024px) { 
+
+    #contact .containerContactForm {
+        width: 80%;
+    }
+    div#infoContact {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:768px) { 
+    
+    #contact .containerContactForm {
+        width: 90%;
+    }
+    div#infoContact {
+        width: 90%;
+    }
 }

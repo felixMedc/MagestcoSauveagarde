@@ -1,0 +1,32 @@
+
+
+// let getBtnContact = document.getElementById('btn-contactform');
+// let getFormContact = document.getElementById('container-form');
+
+// getBtnContact.addEventListener('click', function(){  
+//     getFormContact.classList.toggle('opencontact');  
+// });
+
+	<!-- <div class="container-contact">
+		<div class="contact-container-btn">
+			<a title="contact-btn" id="btn-contactform"><img src="assets/img/icone-contact.svg" alt=""></a>
+		</div>
+		<div id="container-form">
+			<form action="" type="POST">
+				<label for="contact-lastname">Nom</label>
+				<input type="text" id="contact-lastname" placeholder="Nom" name="" value="">
+				<label for="contact-firstname">Prénom</label>
+				<input type="text" id="contact-firstname" placeholder="Prénom" name="" value="">
+				<label for="contact-mail">Mail</label>
+				<input type="mail" id="contact-mail" placeholder="Mail" name="" value="">
+				<label for="contact-message">Message</label>
+				<textarea type="text" id="contact-message" placeholder="Votre Message" name="" id="" rows="10" name="" value=""></textarea>
+				<button type="submit" class="btn-contact-form">Envoyer</button>
+			</form>
+		</div>
+	</div> -->
+
+
+    
+
+	<!-- <script src="assets/js/script-contact.js"></script> -->

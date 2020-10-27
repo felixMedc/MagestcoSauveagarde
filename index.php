@@ -3,9 +3,15 @@
 
 <head>
 	<meta charset="UTF-8">
+	<meta name="robots" content="All">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Language" content="fr">
+	<meta name="URL" content="http://www.magestco.com">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
 	<title>Ma Gestion Connectée</title>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="apple-touch-icon" href="assets/img/favicon/apple-icone.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
 	<link rel="stylesheet" href="assets/css/navigation.css">
 	<link rel="stylesheet" href="assets/css/footer.css">
@@ -45,44 +51,49 @@
 					c’est pourquoi nous intervenons pour vous maintenir à jour dans vos obligations.</p>
 				<p><strong>Une équipe dynamique</strong> à votre service qui vous proposera des solutions correspondant à vos besoins.</p>
 				<div class="groupBtn">
-					<a href="">Formations</a>
-					<a href="">GMAO</a>
-					<a href="">Gestion Clients</a>
+					<a href="../view/solutions.php">Formations</a>
+					<a href="../view/solutions.php#GMAO">GMAO</a>
+					<a href="../view/solutions.php">Gestion Clients</a>
 				</div>
 			</div>
 			<div class="right-prestation">
 				<img src="assets/img/icone-prestations-blue.svg" alt="">
 			</div>
+			<div class="title">
+				<h2>Nos Offres</h2>
+			</div>
 			<div class="listmodule">
 				<div class="module">
 					<h3>Formations</h3>
 					<ul>
-						<li>Logiciels</li>
+						<li>Accompagnement au numérique</li>
+						<li>Réseaux sociaux / visibilité</li>
 						<li>Gestion des plannings</li>
 						<li>Législation</li>
-						<li>Réseaux sociaux / visibilité </li>
-						<li>Accompagnement au numérique</li>
+						<li>Logiciels</li>
 					</ul>
 				</div>
 				<div class="module">
 					<h3>Solutions sur mesure</h3>
 					<ul>
-						<li>GMAO</li>
-						<li>Outils de pilotage</li>
 						<li>Dématérialisation complète</li>
+						<li>Outils de pilotage</li>
+						<li>GMAO</li>
 					</ul>
 				</div>
 				<div class="module">
 					<h3>Gestion RH</h3>
 					<ul>
-						<li>Gestion des appels</li>
-						<li>Gestion des clients</li>
 						<li>Gestion des portefeuilles</li>
+						<li>Gestion des clients</li>
+						<li>Gestion des appels</li>
 					</ul>
 				</div>
 			</div>
+			<div class="title">
+				<h2>Avis Clients</h2>
+			</div>
 			<div class="global-container-commentary">
-				<h2>Avis de Nos Clients</h2>
 
 				<div class="container">
 					<span id="click-before"><img src="assets/img/btn-after.svg" alt=""></span>
@@ -168,7 +179,7 @@
 	<section id="info">
 		<div id="container-info">
 			<h3>UTILISEZ DES OUTILS ADAPTÉS AU QUOTIDIEN POUR GÉRER VOTRE ACTIVITÉ</h3>
-			<p>Les entreprises n'utilisent en général que 30% des fonctions de leurs outils informatiques.
+			<p>Les entreprises n'utilisent en général que 30% des fonctions de leurs outils informatiques. <br>
 				Ne payez plus pour des services inutiles !
 			</p>
 			<div class="btn-infos">
@@ -218,34 +229,10 @@
 		</div>
 	</section>
 
-
 	<?php include 'include/include-footer.php' ?>
-
-	<!-- <div class="container-contact">
-		<div class="contact-container-btn">
-			<a title="contact-btn" id="btn-contactform"><img src="assets/img/icone-contact.svg" alt=""></a>
-		</div>
-		<div id="container-form">
-			<form action="" type="POST">
-				<label for="contact-lastname">Nom</label>
-				<input type="text" id="contact-lastname" placeholder="Nom" name="" value="">
-				<label for="contact-firstname">Prénom</label>
-				<input type="text" id="contact-firstname" placeholder="Prénom" name="" value="">
-				<label for="contact-mail">Mail</label>
-				<input type="mail" id="contact-mail" placeholder="Mail" name="" value="">
-				<label for="contact-message">Message</label>
-				<textarea type="text" id="contact-message" placeholder="Votre Message" name="" id="" rows="10" name="" value=""></textarea>
-				<button type="submit" class="btn-contact-form">Envoyer</button>
-			</form>
-		</div>
-	</div> -->
-
-
-
-
-	<!-- <script src="assets/js/script-contact.js"></script> -->
 	<script src="assets/js/script-slider.js"></script>
 	<script src="assets/js/script-responsiveMenu.js"></script>
+
 </body>
 
 </html>

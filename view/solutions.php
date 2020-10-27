@@ -14,12 +14,16 @@
 </head>
 
 <body>
+
     <?php include '../include/include-navigation.php' ?>
 
     <div class="containerSolution">
         <div class="solution">
-            <h2>Diagnostic numérique</h2>
+            <div class="img-solution">
+                <img src="../assets/img/solution/searchv1.svg" alt="">
+            </div>
             <div class="container">
+                <h2>Diagnostic numérique</h2>
                 <div class="navigationSolution">
                     <ul>
                         <li><button class="btnnav solutionIsActive">Quoi</button></li>
@@ -87,12 +91,13 @@
         </div>
     </div>
 
-
-
     <div class="containerSolution">
         <div class="solution">
-            <h2>Dématérialisation et gestion administrative</h2>
+            <div class="img-solution">
+                <img src="../assets/img/solution/networking.svg" alt="">
+            </div>
             <div class="container">
+                <h2>Dématérialisation et gestion administrative</h2>
                 <div class="navigationSolution">
 
                     <ul>
@@ -172,11 +177,14 @@
         </div>
     </div>
 
-
     <div class="containerSolution">
-        <div class="solution">
-            <h2>GMAO avec apport de nouveaux clients</h2>
+
+        <div class="solution" id="GMAO">
+            <div class="img-solution">
+                <img src="../assets/img/solution/collaboration.svg" alt="">
+            </div>
             <div class="container">
+                <h2>GMAO avec apport de nouveaux clients</h2>
                 <div class="navigationSolution">
 
                     <ul>
@@ -240,8 +248,12 @@
 
     <div class="containerSolution">
         <div class="solution">
-            <h2>Solutions sur mesure</h2>
+            <div class="img-solution">
+                <img src="../assets/img/solution/devices.svg" alt="">
+            </div>
+
             <div class="container">
+                <h2>Solutions sur mesure</h2>
                 <div class="navigationSolution">
                     <ul>
                         <li><button class="btnnav">Quoi</button></li>
@@ -304,11 +316,13 @@
         </div>
     </div>
 
-
     <div class="containerSolution">
-        <div class="solution">
-            <h2>Législation en entreprise</h2>
+        <div class="solution" id="GMAO">
+            <div class="img-solution">
+                <img src="../assets/img/solution/search.svg" alt="">
+            </div>
             <div class="container">
+                <h2>Législation en entreprise</h2>
                 <div class="navigationSolution">
 
                     <ul>
@@ -360,8 +374,11 @@
 
     <div class="containerSolution">
         <div class="solution">
-            <h2>Déplacement optimisés</h2>
+            <div class="img-solution">
+                <img src="../assets/img/solution/laptop.svg" alt="">
+            </div>
             <div class="container">
+                <h2>Déplacement optimisés</h2>
                 <div class="navigationSolution">
 
                     <ul>
@@ -408,13 +425,14 @@
                     </div>
                     <div class="solutionText">
                         <div class="containerAnimationText">
-                          
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
     <?php include '../include/include-footer.php' ?>
     <script src="../assets/js/script-responsiveMenu.js"></script>

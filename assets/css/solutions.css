@@ -18,16 +18,36 @@
    width: 60%;
    margin: 50px auto;
    display: flex;
-   flex-direction: column;
    justify-content: center;
  }
 
  .solution h2 {
    color: #F4A261;
    font-weight: bold;
-   padding: 10px;
+   padding: 0px 10px;
    font-size: 30px;
  }
+
+ div.img-solution {
+   width: 20%;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ div.img-solution img {
+   width: 80%;
+   height: 80%;
+   background-repeat: no-repeat;
+   background-size: contain;
+ }
+
+ div.container {
+   width: 80%;
+   margin-left: 50px;
+ }
+
  .solution .navigationSolution ul {
    display: flex;
    justify-content: space-evenly;
@@ -89,7 +109,7 @@
 
  .solution .containerSolutionText .solutionText .containerAnimationText ul li {
    list-style: disc;
-   margin: 5px 0px;
+   margin: 20px 0px;
    margin-left: 30px;
    border-radius: 5px;
  }
@@ -102,5 +122,11 @@
    to {
      opacity: 1;
      top: 0;
+   }
+ }
+
+ @media screen and (max-width:1024px) {
+   .solution .navigationSolution ul li button {
+     padding: 10px 0px;
    }
  }

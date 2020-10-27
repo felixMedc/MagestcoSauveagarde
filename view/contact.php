@@ -1,4 +1,4 @@
-<?php 
+<?php
 require_once "../controllers/controller-contact.php";
 ?>
 
@@ -24,8 +24,6 @@ require_once "../controllers/controller-contact.php";
             Contact
         </div>
         <div class="containerContactForm">
-            <h2>Nous contacter :</h2>
-           
             <form id="contactForm" action="" method="POST">
                 <div class="group-input">
                     <label for="">Nom : *</label>
@@ -35,31 +33,29 @@ require_once "../controllers/controller-contact.php";
                 </div>
                 <div class="group-input">
                     <label for="">Prénom : *</label>
-                    <input type="text" name="firstname" placeholder="Prénom">
+                    <input type="text" name="firstname" placeholder="Prénom" value="<?= isset($_POST['firstname']) ? $_POST['firstname'] : ''  ?>">
                     <span class="error"><?= (isset($error['firstname'])) ? $error['firstname'] : '' ?></span class="error">
                 </div>
                 <div class="group-input">
                     <label for="">Adresse mail : *</label>
-                    <input type="text" name="mail" placeholder="Adresse Mail">
+                    <input type="text" name="mail" placeholder="Adresse Mail" value="<?= isset($_POST['mail']) ? $_POST['mail'] : ''  ?>">
                     <span class="error"><?= (isset($error['mail'])) ? $error['mail'] : '' ?></span class="error">
                 </div>
                 <div class="group-input">
                     <label for="">Objet de votre demande : *</label>
-                    <input type="text" name="object" placeholder="Objet de votre demande">
+                    <input type="text" name="object" placeholder="Objet de votre demande" value="<?= isset($_POST['object']) ? $_POST['object'] : ''  ?>" >
                     <span class="error"><?= (isset($error['object'])) ? $error['object'] : '' ?></span class="error">
                 </div>
                 <div class="group-input">
                     <label for="">Message : *</label>
-                    <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Message"><?= isset($_POST['message']) ? $_POST['message'] : ''  ?></textarea>
                     <span class="error"><?= (isset($error['message'])) ? $error['message'] : '' ?></span class="error">
                 </div>
                 <div class="group-input">
                     <button type="submit" id="submitContact" value="">Envoyer mon message</button>
                 </div>
-                <p> " * " = Obligatoire</p>
             </form>
         </div>
-
     </section>
 
     <div id="infoContact">
@@ -83,4 +79,5 @@ require_once "../controllers/controller-contact.php";
 
 
 </body>
+
 </html>

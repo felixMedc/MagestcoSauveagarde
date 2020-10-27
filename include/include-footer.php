@@ -2,8 +2,8 @@
 		<div class="global-container-footer">
 			<div class="container-footer">
 			<ul class="footer-socialMedia">
-					<li><a href=""><img src="../assets/img/reseaux/icone-linkedin.svg" alt=""></a></li>
-					<li><a href=""><img src="../assets/img/reseaux/icone-facebook.svg" alt=""></a></li>
+					<li><a href="index.php"><img src="../assets/img/reseaux/icone-linkedin.svg" alt=""></a></li>
+					<li><a href="index.php"><img src="../assets/img/reseaux/icone-facebook.svg" alt=""></a></li>
 				</ul>
 				<ul class="footer-navigation">
 					<li><a href="../view/presentation.php">Présentation</a></li>
@@ -13,7 +13,7 @@
 				</ul>
 			<ul class="footer-mention">
 				<li><a href="../view/mention.php">Mention légales</a></li>
-				<li><a href="" download="cgvcgu.pdf">CGV / CGU</a></li>
+				<li><a href="../index.php" download="cgvcgu.pdf">CGV / CGU</a></li>
 			</ul>
 			</div>
 		</div>

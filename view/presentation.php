@@ -57,22 +57,6 @@
 
         </div>
     </section>
-<!-- 
-    <section id="clients">
-        <div class="container-clients">
-            <h2>Nos Principaux Clients / Références :</h2>
-            <div class="module-clients">
-                <div class="client">
-                    <div class="img-container">
-
-                        <img src="../assets/img/clients/geothermique.png" alt="">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
     <?php include '../include/include-footer.php' ?>
     <script src="../assets/js/script-responsiveMenu.js"></script>
 </body>

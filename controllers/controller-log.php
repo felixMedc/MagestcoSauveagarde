@@ -1,5 +1,5 @@
 <?php
- 
+
 require_once "../models/model-log.php";
 
 $error = [];
@@ -35,20 +35,20 @@ if (!empty($accountTrue)) {
         $userRole = $resultbdd->DroitsUtilisateur;
     };
     if ($droitsutilisateur == "administration") {
-        // si droits administration alors backoffice dédié
+
 ?>
         <script>
             window.sessionStorage.setItem('session', '1');
-            username = "<?php echo $username; ?>";
+           let username = "<?= $username; ?>";
             document.location.href = 'account/admin/index.php?id=' + username;
         </script>
     <?php
     } else {
-        // sinon compte professionnel
+
     ?>
         <script>
             window.sessionStorage.setItem('session', '1');
-            username = "<?php echo $username; ?>";
+           let username = "<?= $username; ?>";
             document.location.href = 'account/dashboard.php?id=' + username;
         </script>
     <?php
@@ -57,23 +57,23 @@ if (!empty($accountTrue)) {
     // sinon ajax pour récupérer compte medc
     ?>
     <script>
-        username = "<?php echo $username; ?>";
-        password = "<?php echo $password; ?>";
-        passwordscript = "<?php echo $passwordscript; ?>";
-        urlconnexion = 'https://www.monentretiendechaudiere.fr/pages/js/json_magestco.php?login=' + username + '&password=' + password;
+        let username = "<?= $username; ?>";
+        let password = "<?= $password; ?>";
+        let passwordscript = "<?php echo $passwordscript; ?>";
+        let urlconnexion = 'https://www.monentretiendechaudiere.fr/pages/js/json_magestco.php?login=' + username + '&password=' + password;
 
         // appel bado en json  
-        reqco = new XMLHttpRequest();
+        let reqco = new XMLHttpRequest();
         reqco.open('GET', urlconnexion, false);
         reqco.send();
 
         //  parsing 
-        reptexteco = reqco.responseText;
-        repjsonco = JSON.parse(reptexteco);
+        let reptexteco = reqco.responseText;
+        let repjsonco = JSON.parse(reptexteco);
 
-        identifiantutilisateurbado = repjsonco["utilisateur"][0]["IdentifiantUtilisateur"];
-        motpasseutilisateurbado = repjsonco["utilisateur"][0]["MotPasseUtilisateur"];
-        droitsutilisateurbado = repjsonco["utilisateur"][0]["DroitsUtilisateur"];
+        let identifiantutilisateurbado = repjsonco["utilisateur"][0]["IdentifiantUtilisateur"];
+        let motpasseutilisateurbado = repjsonco["utilisateur"][0]["MotPasseUtilisateur"];
+        let droitsutilisateurbado = repjsonco["utilisateur"][0]["DroitsUtilisateur"];
 
         if (motpasseutilisateurbado == passwordscript) {
             window.sessionStorage.setItem('session', '1');
@@ -83,9 +83,9 @@ if (!empty($accountTrue)) {
                 droitsadminbado = repjsonco["administration"][0]["AdminInterne"];
                 if (droitsadminbado == 1) {
                     document.location.href = 'account/admin/index.php?id=' + username;
-                } 
+                }
             };
-        } 
+        }
     </script>
 <?php
 };

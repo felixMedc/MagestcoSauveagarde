@@ -19,12 +19,12 @@ div.logo img {
     width: 100px;
 }
 
-.container-presentation, .container-clients {
+.container-presentation {
     width: 80%;
     margin: 50px auto;
 }
 
-.container-presentation h2, .container-clients h2 {
+.container-presentation h2 {
     text-transform: uppercase;
     color: #F4A261;
 }
@@ -76,4 +76,12 @@ div.logo img {
 .container-clients .module-clients .client a img {
     width: 100%;
     height: auto;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .container-presentation, .container-clients {
+        width: 90%;
+    }
 }
