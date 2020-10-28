@@ -18,6 +18,6 @@
 			</div>
 		</div>
 		<div class="footer-bottom">
-			<h4>© 2020-2021 MAGESTCO</h4>
+			<h4>© 2019 - <?= date('Y') ?> MAGESTCO</h4>
 		</div>
 	</footer>

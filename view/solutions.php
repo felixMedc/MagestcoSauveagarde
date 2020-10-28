@@ -330,7 +330,7 @@
                         <li><button class="btnnav">Pourquoi</button></li>
                         <li><button class="btnnav">Pour Qui</button></li>
                         <li><button class="btnnav">Comment</button></li>
-                        <li><button class="btnnav">Combien ?</button></li>
+                        <li><button class="btnnav">Combien</button></li>
                     </ul>
                 </div>
                 <div class="containerSolutionText">
@@ -386,7 +386,7 @@
                         <li><button class="btnnav">Pourquoi</button></li>
                         <li><button class="btnnav">Pour Qui</button></li>
                         <li><button class="btnnav">Comment</button></li>
-                        <li><button class="btnnav">Combien ?</button></li>
+                        <li><button class="btnnav">Combien</button></li>
                     </ul>
                 </div>
                 <div class="containerSolutionText">
@@ -437,37 +437,7 @@
     <?php include '../include/include-footer.php' ?>
     <script src="../assets/js/script-responsiveMenu.js"></script>
     <script src="../assets/js/script-solutions.js"></script>
-    <!-- <script>
-       
-            (function() {
-                var elements;
-                var windowHeight;
-
-                function init() {
-                    elements = document.querySelectorAll('.hidden');
-                    windowHeight = window.innerHeight;
-                }
-
-                function checkPosition() {
-                    for (var i = 0; i < elements.length; i++) {
-                        var element = elements[i];
-                        var positionFromTop = elements[i].getBoundingClientRect().top;
-
-                        if (positionFromTop - windowHeight <= -200) {
-                            element.classList.add('fade-in-element');
-                            element.classList.remove('hidden');
-                        }
-                    }
-                }
-
-                window.addEventListener('scroll', checkPosition);
-                window.addEventListener('resize', init);
-
-                init();
-                checkPosition();
-            })();
-        
-    </script> -->
+   
 </body>
 
 </html>
