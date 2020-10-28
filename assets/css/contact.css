@@ -7,6 +7,10 @@ body, html {
     color: none!important;
 }
 
+li {
+    list-style-type: none;
+}
+
 #contact {
     width: 100%;
 }
@@ -38,6 +42,12 @@ body, html {
     display: flex;
     flex-direction: column;
     margin: 15px 0px;
+}
+
+#contact .containerContactForm #contactForm .group-input h4 {
+    margin: 10px 0px;
+    text-align: center;
+    padding: 10px;
 }
 
 #contact .containerContactForm #contactForm .group-input label {
@@ -108,7 +118,6 @@ div#infoContact ul li img {
 }
 
 @media screen and (max-width:1600px) {
-  
     div#infoContact {
         flex-direction: column;
     }
@@ -120,8 +129,7 @@ div#infoContact ul li img {
     }
 }
 
-@media screen and (max-width:1024px) { 
-
+@media screen and (max-width:1024px) {
     #contact .containerContactForm {
         width: 80%;
     }
@@ -130,8 +138,7 @@ div#infoContact ul li img {
     }
 }
 
-@media screen and (max-width:768px) { 
-    
+@media screen and (max-width:768px) {
     #contact .containerContactForm {
         width: 90%;
     }

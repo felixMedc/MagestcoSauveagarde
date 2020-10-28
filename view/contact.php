@@ -27,7 +27,7 @@ require_once "../controllers/controller-contact.php";
             <form id="contactForm" action="" method="POST">
                 <div class="group-input">
                     <label for="">Nom : *</label>
-                    <input type="text" name="lastname" placeholder="Nom">
+                    <input type="text" name="lastname" placeholder="Nom" value="<?= isset($_POST['lastname']) ? $_POST['lastname'] : ''  ?>">
                     <span class="error"><?= (isset($error['lastname'])) ? $error['lastname'] : '' ?></span class="error">
 
                 </div>
@@ -53,6 +53,8 @@ require_once "../controllers/controller-contact.php";
                 </div>
                 <div class="group-input">
                     <button type="submit" id="submitContact" value="">Envoyer mon message</button>
+                    <h4>( En cliquant sur le bouton d'envoie de message vous accepté que Magestco récupère différentes informations vous concernant (Mail, Nom, Prénom) et puisse vous recontacter. )</h4>
+                    <span class="error"><?= (isset($validateMessage['validate'])) ? $validateMessage['validate'] : '' ?></span class="error">
                 </div>
             </form>
         </div>

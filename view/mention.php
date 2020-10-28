@@ -91,7 +91,6 @@
             <li><a href="https://undraw.co/" target="_blank">Open source Illustration - Undraw</a></li>
             <li><a href="https://www.cnil.fr/" target="_blank">Site du CNIL</a></li>
             <li><a href="https://www.cnil.fr/fr/comprendre-le-rgpd" target="_blank">Loi RGPD - CNIL</a></li>
-            <li><a href="https://www.flaticon.com/authors/freepik" title="Freepik">icone par Freepik </a></li>
         </ul>
     </div>
 

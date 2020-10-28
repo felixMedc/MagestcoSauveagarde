@@ -1,6 +1,7 @@
 <?php
 
 $error = [];
+$validateMessage = [] ; 
 
 if (isset($_POST['firstname'])) {
     if (empty($_POST['firstname'])) {
@@ -45,9 +46,9 @@ if (isset($_POST['message']) &&  isset($_POST['firstname']) && isset($_POST['las
         <b>Message : </b>' . $_POST['message'] . '</p>';
 
     $retour = mail('vousavezuncourrier@magestco.com', 'Envoi depuis page contact magestco', $message, $entete);
-
-    if ($retour) {
-        echo '<p>Votre message a bien été envoyé.</p>';
+   
+    if ($retour == true) {
+        $validateMessage['validate'] = 'Votre message a bien été envoyé.';
     }
 }else {
     $error['contact'] = "vous n'avez pas respecter les conditions d'envoie pour ce mail";

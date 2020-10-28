@@ -20,7 +20,7 @@
     <div class="containerSolution">
         <div class="solution">
             <div class="img-solution">
-                <img src="../assets/img/solution/searchv1.svg" alt="">
+                <img src="../assets/img/solution/diagnostic.svg" alt="">
             </div>
             <div class="container">
                 <h2>Diagnostic numérique</h2>
@@ -94,7 +94,7 @@
     <div class="containerSolution">
         <div class="solution">
             <div class="img-solution">
-                <img src="../assets/img/solution/networking.svg" alt="">
+                <img src="../assets/img/solution/dematerialisation.svg" alt="">
             </div>
             <div class="container">
                 <h2>Dématérialisation et gestion administrative</h2>
@@ -181,7 +181,7 @@
 
         <div class="solution" id="GMAO">
             <div class="img-solution">
-                <img src="../assets/img/solution/collaboration.svg" alt="">
+                <img src="../assets/img/solution/gmao.svg" alt="">
             </div>
             <div class="container">
                 <h2>GMAO avec apport de nouveaux clients</h2>
@@ -249,7 +249,7 @@
     <div class="containerSolution">
         <div class="solution">
             <div class="img-solution">
-                <img src="../assets/img/solution/devices.svg" alt="">
+                <img src="../assets/img/solution/mesure.svg" alt="">
             </div>
 
             <div class="container">
@@ -319,7 +319,7 @@
     <div class="containerSolution">
         <div class="solution" id="GMAO">
             <div class="img-solution">
-                <img src="../assets/img/solution/search.svg" alt="">
+                <img src="../assets/img/solution/legislation.svg" alt="">
             </div>
             <div class="container">
                 <h2>Législation en entreprise</h2>
@@ -375,7 +375,7 @@
     <div class="containerSolution">
         <div class="solution">
             <div class="img-solution">
-                <img src="../assets/img/solution/laptop.svg" alt="">
+                <img src="../assets/img/solution/deplacement.svg" alt="">
             </div>
             <div class="container">
                 <h2>Déplacement optimisés</h2>
@@ -437,7 +437,37 @@
     <?php include '../include/include-footer.php' ?>
     <script src="../assets/js/script-responsiveMenu.js"></script>
     <script src="../assets/js/script-solutions.js"></script>
+    <!-- <script>
+       
+            (function() {
+                var elements;
+                var windowHeight;
 
+                function init() {
+                    elements = document.querySelectorAll('.hidden');
+                    windowHeight = window.innerHeight;
+                }
+
+                function checkPosition() {
+                    for (var i = 0; i < elements.length; i++) {
+                        var element = elements[i];
+                        var positionFromTop = elements[i].getBoundingClientRect().top;
+
+                        if (positionFromTop - windowHeight <= -200) {
+                            element.classList.add('fade-in-element');
+                            element.classList.remove('hidden');
+                        }
+                    }
+                }
+
+                window.addEventListener('scroll', checkPosition);
+                window.addEventListener('resize', init);
+
+                init();
+                checkPosition();
+            })();
+        
+    </script> -->
 </body>
 
 </html>

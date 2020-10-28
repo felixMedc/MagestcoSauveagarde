@@ -83,16 +83,16 @@
 														}
 													?>
 													<tr>
-														<td bgcolor = "<?php echo $couleur; ?>" onclick = "window.open('../index.php?id=<?php echo $idprofessionnel; ?>')" style = "cursor:pointer;" title = "Voir les informations professionnel"><?php echo $raisonsocialeprofessionnel; ?></td>
-														<td bgcolor = "<?php echo $couleur; ?>" onclick = "window.open('../index.php?id=<?php echo $idprofessionnel; ?>')" style = "cursor:pointer;" title = "Voir les informations professionnel">
+														<td bgcolor = "<?php echo $couleur; ?>" onclick = "window.open('../dashboard.php?id=<?php echo $idprofessionnel; ?>')" style = "cursor:pointer;" title = "Voir les informations professionnel"><?php echo $raisonsocialeprofessionnel; ?></td>
+														<td bgcolor = "<?php echo $couleur; ?>" onclick = "window.open('../dashboard.php?id=<?php echo $idprofessionnel; ?>')" style = "cursor:pointer;" title = "Voir les informations professionnel">
 															<?php
 															echo $adresse1professionnel."<br>";
 															if($adresse2professionnel != "") echo $adresse2professionnel."<br>";
 															echo $cpprofessionnel." ".$villeprofessionnel;
 															?>
 														</td>
-														<td bgcolor = "<?php echo $couleur; ?>" onclick = "window.open('../index.php?id=<?php echo $idprofessionnel; ?>')" style = "cursor:pointer;" title = "Voir les informations professionnel"><?php echo $mel1professionnel."<br>".$mel2professionnel; ?></td>
-														<td bgcolor = "<?php echo $couleur; ?>" onclick = "window.open('../index.php?id=<?php echo $idprofessionnel; ?>')" style = "cursor:pointer;" title = "Voir les informations professionnel"><?php echo $tel1professionnel."<br>".$tel2professionnel; ?></td>
+														<td bgcolor = "<?php echo $couleur; ?>" onclick = "window.open('../dashboard.php?id=<?php echo $idprofessionnel; ?>')" style = "cursor:pointer;" title = "Voir les informations professionnel"><?php echo $mel1professionnel."<br>".$mel2professionnel; ?></td>
+														<td bgcolor = "<?php echo $couleur; ?>" onclick = "window.open('../dashboard.php?id=<?php echo $idprofessionnel; ?>')" style = "cursor:pointer;" title = "Voir les informations professionnel"><?php echo $tel1professionnel."<br>".$tel2professionnel; ?></td>
 													</tr>
 													<?php
 													};
