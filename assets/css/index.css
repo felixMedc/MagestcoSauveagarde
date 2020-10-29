@@ -67,6 +67,8 @@ a.btn {
 h2 {
     font-size: 30px;
     color: #F4A261;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 h3 {
@@ -131,6 +133,23 @@ section#presentation div#container-presentation div.right-pres h1 {
     margin-left: 20px;
     font-size: 40px;
     font-weight: bold;
+    text-align: left;
+}
+
+span {
+    opacity: 0;
+    animation: titleAnimation 0.5s cubic-bezier(0.95, 0.05, 0.795, 0.035) 1 forwards;
+}
+
+@keyframes titleAnimation {
+    from {
+        transform: translate3d(0, 100%, 0);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
 }
 
 section#presentation div#container-presentation div.right-pres h2 {
@@ -233,7 +252,7 @@ section#prestation div.container-prestation div.listmodule {
 
 .title {
     width: 100%;
-    margin: 50px 0px;
+    margin: 25px 0px;
     text-align: center;
 }
 
@@ -600,83 +619,8 @@ section#responsive-apps {
 #responsive-apps #list-responsive .responsive-module .right-responsive h3 {
     margin-bottom: 20px;
 }
-
-div.container-contact {
-    width: auto;
-    height: auto;
-}
-
-div.container-contact div.contact-container-btn {
-    width: auto;
-    height: auto;
-    background-color: #F4A261;
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    border-radius: 50%;
-    box-shadow: 5px 5px 20px -10px rgba(0, 0, 0, 0.75);
-}
-
-div.container-contact div.contact-container-btn a {
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-div.container-contact div.contact-container-btn img {
-    width: 30px;
-    height: auto;
-}
-
-div.container-contact #container-form {
-    width: 0%;
-    height: 0px;
-    background-color: #F4A261;
-    position: fixed;
-    bottom: 80px;
-    right: 80px;
-    border-radius: 5px;
-    transition: ease-in-out 0.25s;
-    overflow: hidden;
-    transform-origin: 100% 100% !important;
-}
-
-div.container-contact #container-form form {
-    width: 100%;
-    padding: 10px;
-}
-
-div.container-contact #container-form form input, textarea {
-    width: 100%;
-    margin: 5px 0px 5px 0px;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-div.container-contact #container-form form button.btn-contact-form {
-    width: 100%;
-    margin: 10px 0px 10px 0px;
-    background-color: white;
-    border: none;
-    padding: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.opencontact {
-    transition: ease-in-out 0.25s;
-    overflow: hidden;
-    width: 300px !important;
-    bottom: 110px !important;
-    right: 25px !important;
-    height: 450px !important;
-    max-height: 450px !important;
-    color: white;
-    transform-origin: 100% 100% !important;
+.pageError{
+    background-color: red;
 }
 
 @media screen and (max-width:1440px) {

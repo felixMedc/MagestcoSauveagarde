@@ -1,0 +1,60 @@
+@charset "utf-8";
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+div, header, nav, article, section, aside, footer, h1, h2, h3, h4, h5, h6, p, a, ul, li, figure, figcaption, class, img {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+main {
+    overflow: hidden;
+}
+
+img, object, embed, canvas, video, audio, picture, svg {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    border: 0 solid transparent;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.25s;
+    position: relative;
+    border: none;
+    scroll-behavior: smooth;
+}
+
+div.pageError {
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+div.pageError h2 {
+    font-size: 40px;
+}
+
+div.pageError a {
+    display: block;
+    font-size: 25px;
+    text-transform: uppercase;
+    color:#F4A261;
+    font-weight: 600;
+    text-decoration: none;
+}

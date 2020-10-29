@@ -8,7 +8,8 @@
 	<meta http-equiv="Content-Language" content="fr">
 	<meta name="URL" content="http://www.magestco.com">
 	<meta name="description" content="">
-	<meta name="keywords" content="">
+	<meta name="keywords" content="emafor, EMAFOR, MAGESTCO, magestco, ma gestion connectée, Formation, Solution, Fécamp, Normandie, 
+	Le Havre, RGPD, GMAO, Logiciels, Accompagnement, Numérique, Activité, Législation, Entreprise , medc, MEDC, Mon entretien de chaudiere">
 	<title>Ma Gestion Connectée</title>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 	<link rel="apple-touch-icon" href="assets/img/favicon/apple-icone.png">
@@ -28,7 +29,7 @@
 				<img src="assets/img/icone-presentation.svg" alt="">
 			</div>
 			<div class="right-pres">
-				<h1>Libérez vous du temps</h1>
+				<h1 class="title split-character">Libérez vous du temps</h1>
 				<p>
 					Des solutions adaptées à la vie de votre entreprise : voici la promesse de <strong>MAGESTCO</strong><br>
 					Besoin d’un logiciel en SaaS ? d’outils de pilotage ? De connaitre et appliquer la législation dans votre société ?
@@ -230,6 +231,31 @@
 	<?php include 'include/include-footer.php' ?>
 	<script src="assets/js/script-slider.js"></script>
 	<script src="assets/js/script-responsiveMenu.js"></script>
+
+	<script>
+ 
+			setInterval(() => {
+				(function() {
+					var elements, newContent = "";
+					elements = document.getElementsByClassName('split-character');
+					for (var element = 0; element < elements.length; ++element) {
+						newContent += "<span>"
+						for (var character = 0; character < elements[element].innerText.length; character++) {
+							if (elements[element].innerText[character] !== " ") {
+								newContent += "<span style='animation-delay: " + 0.050 * character + "s'>" + elements[element].innerText[character] + "</span>";
+							} else {
+								newContent += "</span> <span>";
+							}
+						}
+						newContent += "</span>"
+						elements[element].innerHTML = newContent;
+						newContent = "";
+					}
+				})();
+			}, 5000);
+		 
+	</script>
+
 
 </body>
 
