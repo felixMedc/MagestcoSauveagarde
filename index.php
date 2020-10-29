@@ -181,7 +181,7 @@
 				Ne payez plus pour des services inutiles !
 			</p>
 			<div class="btn-infos">
-				<a href="view/solutions.php" class="btn">Nos Solutions</a>
+				<a href="view/solutions.php" class="btn">Découvrir nos solutions</a>
 			</div>
 		</div>
 	</section>
@@ -232,27 +232,24 @@
 	<script src="assets/js/script-responsiveMenu.js"></script>
 
 	<script>
-		setInterval(() => {
-			(function() {
-				var elements, newContent = "";
-				elements = document.getElementsByClassName('split-character');
-				for (var element = 0; element < elements.length; ++element) {
-					newContent += "<span>"
-					for (var character = 0; character < elements[element].innerText.length; character++) {
-						if (elements[element].innerText[character] !== " ") {
-							newContent += "<span style='animation-delay: " + 0.050 * character + "s'>" + elements[element].innerText[character] + "</span>";
-						} else {
-							newContent += "</span> <span>";
-						}
+		(function() {
+			var elements, newContent = "";
+			elements = document.getElementsByClassName('split-character');
+			for (var element = 0; element < elements.length; ++element) {
+				newContent += "<span>"
+				for (var character = 0; character < elements[element].innerText.length; character++) {
+					if (elements[element].innerText[character] !== " ") {
+						newContent += "<span style='animation-delay: " + 0.050 * character + "s'>" + elements[element].innerText[character] + "</span>";
+					} else {
+						newContent += "</span> <span>";
 					}
-					newContent += "</span>"
-					elements[element].innerHTML = newContent;
-					newContent = "";
 				}
-			})();
-		}, 5000);
+				newContent += "</span>"
+				elements[element].innerHTML = newContent;
+				newContent = "";
+			}
+		})();
 	</script>
-
 
 </body>
 

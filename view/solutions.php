@@ -337,7 +337,7 @@
                     <div class="solutionText">
                         <div class="containerAnimationText">
                             <p> Dans le cadre de la lutte contre la fraude fiscale, notamment la fraude à la TVA, l'état français a introduit une nouvelle loientrant en vigueur le 1er Janvier 2018. <br>
-                                Celle-ci stipule que les entreprises devront dorénavant utiliser des logiciels de facturationet des systèmesde caisse certifiés.</p>
+                                Celle-ci stipule que les entreprises devront dorénavant utiliser des logiciels de facturation et des systèmes de caisse certifiés.</p>
                         </div>
                     </div>
                     <div class="solutionText">

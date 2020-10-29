@@ -235,6 +235,7 @@ section#prestation div.container-prestation .left-prestation .groupBtn a {
     margin-right: 25px;
     padding: 10px 30px;
     border-radius: 5px;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.226);
 }
 
 section#prestation div.container-prestation .left-prestation .groupBtn a:hover {
@@ -278,7 +279,7 @@ section#prestation div.container-prestation div.listmodule .module:nth-child(1):
 }
 
 section#prestation div.container-prestation div.listmodule .module:nth-child(2)::before {
-    content: url('../img/testsolution.svg');
+    content: url('../img/tools.svg');
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -385,7 +386,7 @@ section#prestation .container-prestation .container .container-commentary {
     justify-content: left;
     position: relative;
     overflow: hidden;
-    margin: 50px auto;
+    margin: 0px auto;
     background-image: url(../img/background-slider.svg);
     background-position: center;
     background-size: contain;
@@ -454,14 +455,18 @@ section#prestation .container-prestation .container .container-commentary .comme
 section#info {
     width: 100%;
     padding: 50px 0px;
-    background-color: #06CCD6; 
+    /* background-color: #06CCD6;  */
+    background-image: url('../img/solutions.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 section#info div#container-info {
     width: 70%;
     margin: 0 auto;
     text-align: center;
-    padding: 100px 0px;
+    padding: 50px 0px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -566,6 +571,7 @@ section#offers #list-offers .offers-module h3 {
 section#responsive-apps {
     width: 100%;
     position: relative;
+    padding: 50px 0px;
 }
 
 #responsive-apps #list-responsive {
