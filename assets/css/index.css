@@ -619,7 +619,8 @@ section#responsive-apps {
 #responsive-apps #list-responsive .responsive-module .right-responsive h3 {
     margin-bottom: 20px;
 }
-.pageError{
+
+.pageError {
     background-color: red;
 }
 
