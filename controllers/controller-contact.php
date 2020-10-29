@@ -50,6 +50,4 @@ if (isset($_POST['message']) &&  isset($_POST['firstname']) && isset($_POST['las
     if ($retour == true) {
         $validateMessage['validate'] = 'Votre message a bien été envoyé.';
     }
-}else {
-    $error['contact'] = "vous n'avez pas respecter les conditions d'envoie pour ce mail";
-}
+} 

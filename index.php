@@ -28,13 +28,13 @@
 				<img src="assets/img/icone-presentation.svg" alt="">
 			</div>
 			<div class="right-pres">
-				<h1 class="title split-character">Libérez vous du temps</h1>
+				<h1 class="title split-character">Libérez-vous du temps</h1>
 				<p>
 					Des solutions adaptées à la vie de votre entreprise : voici la promesse de <strong>MAGESTCO</strong><br>
-					Besoin d’un logiciel en SaaS ? d’outils de pilotage ? De connaitre et appliquer la législation dans votre société ?
+					Besoin d’un logiciel en saas, d’outils de pilotage, de connaitre et appliquer la législation dans votre société.
 				</p>
 				<div class="container-btn">
-					<a href="view/presentation.php" class="btn ">Présentation</a>
+					<a href="view/presentation.php" class="btn">Qui sommes nous ? </a>
 				</div>
 			</div>
 		</div>
@@ -43,9 +43,9 @@
 		<div class="container-prestation">
 			<div class="left-prestation">
 				<h2>Nos prestations</h2>
-				<p><strong>Magestco</strong> vous propose des services d’accompagnements et de formations <br>
+				<p><strong>Magestco</strong> vous propose des services d’accompagnements et de formations
 					pour développer votre activité, respecter la loi et gagner en productivité. <br>
-					De nombreuses loi sont apparues depuis quelques années règlementant tout un ensemble de votre activité,
+					De nombreuses lois sont apparues depuis quelques années règlementant tout un ensemble de votre activité,
 					c’est pourquoi nous intervenons pour vous maintenir à jour dans vos obligations.</p>
 				<p><strong>Une équipe dynamique</strong> à votre service qui vous proposera des solutions correspondant à vos besoins.</p>
 				<div class="groupBtn">
@@ -210,7 +210,7 @@
 				</div>
 				<div class="right-responsive">
 					<h3>A L'extérieur</h3>
-					<p> Restez connecté en permanence avec votre équipe.<br> Grâce à l’accès mobile, ils recoivent des informations en temps réel. </p>
+					<p> Restez connecté en permanence avec votre équipe.<br> Grâce à l’accès mobile, ils reçoivent des informations en temps réel. </p>
 				</div>
 			</div>
 			<div class="responsive-module">
@@ -220,8 +220,8 @@
 					</div>
 				</div>
 				<div class="right-responsive">
-					<h3>Zone Blanche</h3>
-					<p> Beaucoup d’endroits sont encore mal desservis en connexions (Zones Blanche).<br> Pour éviter de recourir à du papier dans ces zones, notre application mobile garde le lien et vous permet de réaliser l’essentiel de vos tâches. </p>
+					<h3>Zones Blanches</h3>
+					<p> Beaucoup d’endroits sont encore mal desservis en connexions (Zones Blanches).<br> Pour éviter de recourir à du papier dans ces zones, notre application mobile garde le lien et vous permet de réaliser l’essentiel de vos tâches. </p>
 				</div>
 			</div>
 		</div>

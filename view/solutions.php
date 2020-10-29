@@ -76,14 +76,14 @@
                                 <li>Communication</li>
                                 <li>Pilotage et indicateurs clés</li>
                             </ul>
-                            <p>Cette formation pourra se faire en présentielle ou, si des facteurs géographiques entrent en compte,
-                                à distance en e-learning. Le programme final de la formation sera fait en fonction de la sythèse de l'audit.</p>
+                            <p>Cette formation pourra se faire en présentiel ou, si des facteurs géographiques entrent en compte,
+                                à distance en e-learning. Le programme final de la formation sera fait en fonction de la synthèse de l'audit.</p>
                         </div>
                     </div>
                     <div class="solutionText">
                         <div class="containerAnimationText">
                             <p>Parce que la formation est la clé de la réussite, celle-ci peut être prise en charge par l'OPCO auquel vous êtes affilié. <br>
-                                En effet, nous sommes référencés DATADOCK, ce qui signifie que nous respectons les exigences qualité dictées par la loi</p>
+                                En effet, nous sommes référencés DATADOCK, ce qui signifie que nous respectons les exigences qualité dictées par la loi.</p>
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                     </div>
                     <div class="solutionText">
                         <div class="containerAnimationText">
-                            <p>Le diagnostic permet de déterminer les améliorations possibles pour optimiser au mieux la gestion et le fonctionnement de votre entreprise <br>
+                            <p>Le diagnostic permet de déterminer les améliorations possibles pour optimiser au mieux la gestion et le fonctionnement de votre entreprise. <br>
                                 L' objectif final est de vous aider à opérer une transition numérique à la fois efficace et en douceur. <br>
                                 Une gestion administrative plus fluide, des vecteurs de communication plus efficaces, des outils de pilotage et des indicateurs clés clairs et performants, telles sont les améliorations possibles que cet audit technique mettra en évidence.
                             </p>
@@ -140,27 +140,23 @@
                             </p>
 
                             <ul>
-                                <li>Faire connaissance : Pour vous apporter les solutions adaptées, il est primordial de comprendre qui vous êtes. <br>
-                                    Quelle est votre activité ? Quels sont vos effectifs ? A qui s'adressent vos services ? Quelle est votre zone de marché ?
-                                </li>
-                                <li>Evaluer vos outils de gestion : La gestion administrative est une tâche incontournable.<br>
-                                    Bien souvent fastidieuse, elle représente en moyenne 142 jours de travail par an.<br>
-                                    Nous analyserons ensemble les outils utilisés pour la facturation, la comptabilité, la relation client, la prise de rendez-vous, ainsi que la façon dont se font les liaisons entre chacune de ces applications.
+                                <li>Faire connaissance : Pour vous apporter les solutions adaptées, il est primordial de comprendre qui vous êtes.</li>
+                                <li>Evaluer vos outils de gestion :<br>
+                                    Bien souvent fastidieuse, la gestion administrative représente en moyenne 142 jours de travail par an.<br>
+                                    Nous analyserons ensemble les outils utilisés pour la facturation, la comptabilité, la relation client, la prise de rendez-vous.
                                 </li>
                                 <li>Conformité et sécurisation : La sécurisation des données et une question épineuse en ces temps du tout numérique.<br>
-                                    Nous ferons le point sur votre conformité RGPD afin de s'assurer que votre entreprise respecte le cadre de la loi à ce sujet. <br>
-                                    De plus, nous vérifierons ensemble que la vieille documentaire est observée en termes de documents et mentions obligatoires (attestations de TVA, devis, factures, attestations de fin de chantier, CERFA à jour...)
+                                    Nous ferons le point sur votre conformité RGPD afin de nous assurer que votre entreprise respecte le cadre de la loi. <br>
                                 </li>
                                 <li>Communication : Dialoguer, se faire connaître et reconnaître... Une communication fluide et efficace est primordiale. <br>
-                                    Nous détaillerons ensemble les vecteurs mis en place au sein votre structure : de quelles façon interagissez-vous en interne/externe ? <br>
-                                    Comment vous faîtes-vous connaître du public ? Utilisez-vous les réseaux sociaux ? Mesurez-vous l'efficacité de votre communication et comment le faites-vous ?
+                                    Nous détaillerons ensemble les vecteurs mis en place au sein votre structure.
                                 </li>
-                                <li>Votre équipe et le numérique : Il est important de mesurer le degré de maïtrise de chacun en terme de numérique,
+                                <li>Votre équipe et le numérique : Il est important de mesurer pour chaque utilisateur le degré de sa maîtrise du numérique,
                                     et ce en fonction du rôle au sein de l'entreprise, afin d'adapter le contenu des connaissances à apporter.
                                 </li>
                                 <li>Outils de pilotage : Les indicateurs, pourtant indispensables au contrôle de la bonne marche d'une entreprise, sont souvent négligés, voire inexistants.<br>
-                                    A ce titre, nous définirons ensemble si les outils déjà en place sont suffisants et comment ils sont exploités. <br>
-                                    Ces indicateurs sont multiples : ceux liés au temps (ex : temps d'intervention), ceux liés aux coûts (ex : déplacements, salariés), à la marge, etc.
+                                    A ce titre, nous définirons ensemble si les outils déjà en place sont suffisants et comment ils sont exploités.
+                                   
                                 </li>
                             </ul>
                         </div>
@@ -191,7 +187,7 @@
                         <li><button class="btnnav">Quoi</button></li>
                         <li><button class="btnnav">Pourquoi</button></li>
                         <li><button class="btnnav">Pour Qui</button></li>
-                        <li><button class="btnnav">Comment</button></li>
+                        <li style="display:none;"><button class="btnnav">Comment</button></li>
                         <li><button class="btnnav">Combien</button></li>
                     </ul>
                 </div>
@@ -226,7 +222,7 @@
                     </div>
                     <div class="solutionText">
                         <div class="containerAnimationText">
-                            <p>Pour toute structure souhaitant une solution globale de gestion client et administrative, facile d’utilisation, responsive et intuitive.
+                            <p>Pour toute structure souhaitant une solution globale de gestion client et administrative, facile d’utilisation et intuitive.
                             </p>
                         </div>
                     </div>
@@ -317,7 +313,7 @@
     </div>
 
     <div class="containerSolution">
-        <div class="solution" id="GMAO">
+        <div class="solution">
             <div class="img-solution">
                 <img src="../assets/img/solution/legislation.svg" alt="">
             </div>
@@ -330,7 +326,7 @@
                         <li><button class="btnnav">Pourquoi</button></li>
                         <li><button class="btnnav">Pour Qui</button></li>
                         <li><button class="btnnav">Comment</button></li>
-                        <li><button class="btnnav">Combien</button></li>
+                        <li style="display: none;"><button class="btnnav">Combien</button></li>
                     </ul>
                 </div>
                 <div class="containerSolutionText">
@@ -345,7 +341,7 @@
                             <p>Le Règlement Général sur la Protection des Données du 25 mai 2018. <br>
                                 Son rôle est de :<br>
                                 Uniformiser la réglementation sur la protection des données au niveau européen,
-                                responsabiliser les entreprises en termes d'auto-contrôle,
+                                inciter les entreprises à faire leur auto-contrôle,
                                 renforcer le droit des personnes (droit à l'accès des données, droit à l'oubli, droit à la portabilité, transparence,etc)</p>
                         </div>
                     </div>
@@ -378,7 +374,7 @@
                 <img src="../assets/img/solution/deplacement.svg" alt="">
             </div>
             <div class="container">
-                <h2>Déplacement optimisés</h2>
+                <h2>Déplacements optimisés</h2>
                 <div class="navigationSolution">
 
                     <ul>
@@ -386,7 +382,7 @@
                         <li><button class="btnnav">Pourquoi</button></li>
                         <li><button class="btnnav">Pour Qui</button></li>
                         <li><button class="btnnav">Comment</button></li>
-                        <li><button class="btnnav">Combien</button></li>
+                        <li style="display: none;"><button class="btnnav" >Combien</button></li>
                     </ul>
                 </div>
                 <div class="containerSolutionText">
@@ -398,29 +394,34 @@
                     </div>
                     <div class="solutionText">
                         <div class="containerAnimationText">
-                            <p>Parce qu'il est impératif pour vous de :
-                                Satisfaire au mieux votre clientèle en arrivant à l'heure prévue
-                                Optimiser au maximum votre planning
-                                Réduire le plus possible vos dépenses en carburant
-
-                                Mais aussi parce que réduire ses trajets permet de diminuer son empreinte carbone !</p>
+                            <p>Parce qu'il est impératif pour vous de : </p>
+                            <ul>
+                                <li>Satisfaire au mieux votre clientèle en arrivant à l'heure prévue</li>
+                                <li>Optimiser au maximum votre planning</li>
+                                <li>Réduire le plus possible vos dépenses en carburant</li>
+                                <li>Mais aussi parce que réduire ses trajets permet de diminuer son empreinte carbone ! </li>
+                            </ul>
                         </div>
                     </div>
                     <div class="solutionText">
                         <div class="containerAnimationText">
-                            <p>Cet outil deviendra indispensable pour toute entreprise se déplaçant chez ses clients et souhaitant :
-                                Gagner du temps sur ses trajets
-                                Faire des économies de carburant
-                                Faire un geste pour la planète</p>
+                            <p>Cet outil deviendra indispensable pour toute entreprise se déplaçant chez ses clients et souhaitant :</p>
+                            <ul>
+                                <li>Gagner du temps sur ses trajets</li>
+                                <li>Faire des économies de carburant</li>
+                                <li>Faire un geste pour la planète</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="solutionText">
                         <div class="containerAnimationText">
                             <p>Ce procédé fonctionne sur la base d'un calcul automatisé entre les coordonnées de l'adresse du rendez-vous que vous prenez, celles du précédent, et du suivant. <br>
-                                En effet, notre solution prend en compte, lorsque vous voulez positionner une plage horaire sur votre planning, l'ensemble des critères pour vous signaler si :<br>
-                                La date et l'heure sont disponibles
-                                La durée de trajet permet ce positionnement
-                                L'itinéraire est optimal</p>
+                                En effet, notre solution prend en compte, lorsque vous voulez positionner une plage horaire sur votre planning, l'ensemble des critères pour vous signaler si :<br></p>
+                            <ul>
+                                <li>La date et l'heure sont disponibles</li>
+                                <li>La durée de trajet permet ce positionnement</li>
+                                <li>L'itinéraire est optimal</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="solutionText">
@@ -437,7 +438,7 @@
     <?php include '../include/include-footer.php' ?>
     <script src="../assets/js/script-responsiveMenu.js"></script>
     <script src="../assets/js/script-solutions.js"></script>
-   
+
 </body>
 
 </html>
