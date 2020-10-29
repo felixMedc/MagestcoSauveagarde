@@ -77,14 +77,17 @@
             Cependant, nous pouvons parfois vous demander des informations.<br>
             Par exemple, pour traiter une commande, établir une correspondance,
             fournir un abonnement ou soumettre une candidature à un poste.<br>
-            Nous pouvons compléter ces informations pour conclure une transaction ou offrir un meilleur service.</p>
+            Nous pouvons compléter ces informations pour conclure une transaction ou offrir un meilleur service. </p>
+        <br>
+        <p>Pour toute informations concernant vos données personnelles, suppression de votre compte, demande particulière ... , envoyez un mail a l'adresse mail suivante : <br>
+            <strong>" vousavezuncourrier@magestco.com " </strong>
+        </p>
 
 
         <h3>IV. Propriété intellectuelle : </h3>
         <p> Toute utilisation, reproduction, diffusion, commercialisation, modification de toute ou partie du site
             <strong>" https://magestco.com/ "</strong> , sans autorisation de l’Editeur est prohibée et pourra entraînée des actions et poursuites
             judiciaires telles que notamment prévues par le Code de la propriété intellectuelle et le Code civil.<br>
-            Pour plus d’informations, se reporter aux CGU et CGV du site <strong>" https://magestco.com/ "</strong> accessible à la rubrique « CGU / CGV »
         </p>
         <h3>V. Crédits</h3>
         <ul>

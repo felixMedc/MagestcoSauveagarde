@@ -40,7 +40,7 @@
             <p> Et parce qu’une entreprise florissante est une entreprise qui prend soin de ses clients,
                 nous vous apportons nos connaissances dans le domaine de la relation client.</p>
             <ul>
-                <h3>Nos valeurs:</h3>
+                <h3>Nos Valeurs:</h3>
                 <li> L’écoute : Pour vous apporter une satisfaction optimale, nous prenons le temps de comprendre vos besoins.</li>
                 <li> L’accompagnement : Nous sommes là pour vous conseiller au mieux en fonction des besoins de votre structure et de vos équipes.</li>
                 <li> Le partage des connaissances : Si vous souhaitez faire évoluer votre entreprise,

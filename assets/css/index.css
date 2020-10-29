@@ -124,7 +124,7 @@ section#presentation div#container-presentation div.right-pres {
     margin: 0px 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 section#presentation div#container-presentation div.right-pres h1 {

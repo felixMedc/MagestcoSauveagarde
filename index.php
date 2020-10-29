@@ -33,14 +33,12 @@
 					Des solutions adaptées à la vie de votre entreprise : voici la promesse de <strong>MAGESTCO</strong><br>
 					Besoin d’un logiciel en SaaS ? d’outils de pilotage ? De connaitre et appliquer la législation dans votre société ?
 				</p>
-				<h2>Vous êtes au bon endroit.</h2>
 				<div class="container-btn">
 					<a href="view/presentation.php" class="btn ">Présentation</a>
 				</div>
 			</div>
 		</div>
 	</section>
-
 	<section id="prestation">
 		<div class="container-prestation">
 			<div class="left-prestation">
@@ -131,21 +129,6 @@
 						<div class="commentary-wrapper">
 							<div class="commentary-stucture">
 								<div class="commentary-header">
-									<img src="assets/img/icone-gestionExterne.svg" alt="">
-								</div>
-								<div class="commentary-body">
-
-									<h4>Gestion externalisée</h4>
-								</div>
-								<div class="commentary-footer">
-									<h5>M.JAGUIN</h5>
-									<p>"Equipe dynamique et réactive, toujours une solution à apporter"</p>
-								</div>
-							</div>
-						</div>
-						<div class="commentary-wrapper">
-							<div class="commentary-stucture">
-								<div class="commentary-header">
 									<img src="assets/img/icone-formation.svg" alt="">
 								</div>
 								<div class="commentary-body">
@@ -160,13 +143,28 @@
 						<div class="commentary-wrapper">
 							<div class="commentary-stucture">
 								<div class="commentary-header">
+									<img src="assets/img/icone-gestionExterne.svg" alt="">
+								</div>
+								<div class="commentary-body">
+									<h4>Gestion externalisée</h4>
+								</div>
+								<div class="commentary-footer">
+									<h5>M.JAGUIN</h5>
+									<p>"Equipe dynamique et réactive, toujours une solution à apporter"</p>
+								</div>
+							</div>
+						</div>
+						<div class="commentary-wrapper">
+							<div class="commentary-stucture">
+								<div class="commentary-header">
+									<img src="assets/img/icone-formation.svg" alt="">
 								</div>
 								<div class="commentary-body">
 									<h4>Outils utilisé</h4>
 								</div>
 								<div class="commentary-footer">
-									<h5>nom entreprise</h5>
-									<p>"commentaire"</p>
+									<h5>M.LE BON</h5>
+									<p>"Formation Complète"</p>
 								</div>
 							</div>
 						</div>
@@ -190,7 +188,7 @@
 
 	<section id="responsive-apps">
 		<div class="title">
-			<h2>Sites Web, applications tout terrain, on développe ...</h2>
+			<h2>Sites Web, applications tout terrain, on développe pour vous ! </h2>
 		</div>
 		<div id="list-responsive">
 			<div class="responsive-module">

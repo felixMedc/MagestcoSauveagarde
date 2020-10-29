@@ -26,7 +26,7 @@
                 <h2>Diagnostic numérique</h2>
                 <div class="navigationSolution">
                     <ul>
-                        <li><button class="btnnav solutionIsActive">Quoi</button></li>
+                        <li><button class="btnnav">Quoi</button></li>
                         <li><button class="btnnav">Pourquoi</button></li>
                         <li><button class="btnnav">Pour Qui</button></li>
                         <li><button class="btnnav">Comment</button></li>
