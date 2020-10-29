@@ -2,8 +2,8 @@
 		<div class="global-container-footer">
 			<div class="container-footer">
 			<ul class="footer-socialMedia">
-					<li><a href="https://www.linkedin.com/in/melanie-l-9625a91a2/" target="_blank"><img src="../assets/img/reseaux/icone-linkedin.svg" alt=""></a></li>
-					<li><a href="https://www.facebook.com/Ma-gestion-connect%C3%A9e-108501091035389" target="_blank"><img src="../assets/img/reseaux/icone-facebook.svg" alt=""></a></li>
+					<li><a href="https://www.linkedin.com/in/melanie-l-9625a91a2/" target="_blank" rel="noopener"><img src="../assets/img/reseaux/icone-linkedin.svg" alt=""></a></li>
+					<li><a href="https://www.facebook.com/Ma-gestion-connect%C3%A9e-108501091035389" target="_blank" rel="noopener" ><img src="../assets/img/reseaux/icone-facebook.svg" alt=""></a></li>
 					<li><a href="index.php" target="_blank"><img src="../assets/img/reseaux/icone-instagram.svg" alt=""></a></li>
 				</ul>
 				<ul class="footer-navigation">

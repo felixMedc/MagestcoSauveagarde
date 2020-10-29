@@ -7,7 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="Content-Language" content="fr">
 	<meta name="URL" content="http://www.magestco.com">
-	<meta name="description" content="">
+	<meta name="description" content="MAGESTCO est un service dédié aux professionnels de la maintenance, artisans, ou tous métiers avec tournées. 
+	Nous proposons également nos solutions aux entreprises ayant pour activité la gestion de logements, ou gestion commerciale en général.">
 	<meta name="keywords" content="emafor, EMAFOR, MAGESTCO, magestco, ma gestion connectée, Formation, Solution, Fécamp, Normandie, 
 	Le Havre, RGPD, GMAO, Logiciels, Accompagnement, Numérique, Activité, Législation, Entreprise , medc, MEDC, Mon entretien de chaudiere">
 	<title>Ma Gestion Connectée</title>
@@ -20,9 +21,7 @@
 </head>
 
 <body>
-
 	<?php include 'include/include-navigation.php' ?>
-
 	<section id="presentation">
 		<div id="container-presentation">
 			<div class="left-pres">
@@ -233,27 +232,25 @@
 	<script src="assets/js/script-responsiveMenu.js"></script>
 
 	<script>
- 
-			setInterval(() => {
-				(function() {
-					var elements, newContent = "";
-					elements = document.getElementsByClassName('split-character');
-					for (var element = 0; element < elements.length; ++element) {
-						newContent += "<span>"
-						for (var character = 0; character < elements[element].innerText.length; character++) {
-							if (elements[element].innerText[character] !== " ") {
-								newContent += "<span style='animation-delay: " + 0.050 * character + "s'>" + elements[element].innerText[character] + "</span>";
-							} else {
-								newContent += "</span> <span>";
-							}
+		setInterval(() => {
+			(function() {
+				var elements, newContent = "";
+				elements = document.getElementsByClassName('split-character');
+				for (var element = 0; element < elements.length; ++element) {
+					newContent += "<span>"
+					for (var character = 0; character < elements[element].innerText.length; character++) {
+						if (elements[element].innerText[character] !== " ") {
+							newContent += "<span style='animation-delay: " + 0.050 * character + "s'>" + elements[element].innerText[character] + "</span>";
+						} else {
+							newContent += "</span> <span>";
 						}
-						newContent += "</span>"
-						elements[element].innerHTML = newContent;
-						newContent = "";
 					}
-				})();
-			}, 5000);
-		 
+					newContent += "</span>"
+					elements[element].innerHTML = newContent;
+					newContent = "";
+				}
+			})();
+		}, 5000);
 	</script>
 
 

@@ -453,7 +453,8 @@ section#prestation .container-prestation .container .container-commentary .comme
 
 section#info {
     width: 100%;
-    background-color: #06CCD6;
+    padding: 50px 0px;
+    background-color: #06CCD6; 
 }
 
 section#info div#container-info {
