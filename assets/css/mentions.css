@@ -1,0 +1,55 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container-mentions {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.container-mentions h2 {
+    color: #F4A261;
+    margin: 25px 0px;
+    text-transform: uppercase;
+}
+
+.container-mentions h3 {
+    color: #F4A261;
+    margin: 25px 0px;
+    text-transform: uppercase;
+}
+
+.container-mentions p {
+    line-height: 25px;
+    font-weight: 500;
+    margin: 0px 0px 0px 30px;
+}
+
+.container-mentions ul li {
+    margin: 10px 0px 0px 50px;
+    font-weight: 500;
+}
+
+.container-mentions ul li a {
+    display: block;
+    font-weight: bold;
+    color: black;
+}
+
+.container-mentions ul li a:hover {
+    color: #F4A261
+}
+
+@media screen and (max-width:768px) {
+    .container-mentions {
+        width: 90%;
+    }
+    .container-mentions p {
+        margin-left: 0;
+    }
+    .container-mentions ul li {
+        margin-left: 0;
+        list-style: none;
+    }
+}

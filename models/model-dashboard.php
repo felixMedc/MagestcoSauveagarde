@@ -6,8 +6,8 @@ class Dashboard
     // Connexion à la base de données
     public function __construct()
     {
-        // $this->bdd = new PDO('mysql:host=localhost;dbname=magestco;charset=utf8', 'root', '');
-        $this->bdd = new PDO('mysql:host=magestcodvbd.mysql.db;dbname=magestcodvbd;charset=utf8', 'magestcodvbd', 'MaG357C0');
+        $this->bdd = new PDO('mysql:host=localhost;dbname=magestco;charset=utf8', 'root', '');
+        // $this->bdd = new PDO('mysql:host=magestcodvbd.mysql.db;dbname=magestcodvbd;charset=utf8', 'magestcodvbd', 'MaG357C0');
  
         // Activation des erreurs PDO
         $this->bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

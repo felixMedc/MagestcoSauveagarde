@@ -126,11 +126,10 @@ section#presentation div#container-presentation div.right-pres {
     margin: 0px 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 section#presentation div#container-presentation div.right-pres h1 {
-    margin-left: 20px;
     font-size: 40px;
     font-weight: bold;
     text-align: left;
@@ -152,6 +151,79 @@ span {
     }
 }
 
+.content {
+    position: relative;
+    overflow: hidden;
+    font-size: 35px;
+    color: white;
+}
+
+.content .container {
+    font-weight: 600;
+    overflow: hidden;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.content .container .container-text {
+    display: inline;
+    float: left;
+    margin: 0;
+}
+
+.content .container .container-list {
+    overflow: hidden;
+    text-align: left;
+    list-style: none;
+    animation-name: change;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.content .container .container-list .list-item {
+    line-height: 40px;
+    margin: 0;
+    list-style: none;
+}
+
+.content .container .container-list .list-item a {
+    color: white;
+    transition: ease-in-out 0.25s;
+}
+.content .container .container-list .list-item a:hover {
+    color:#363636;
+}
+
+@keyframes opacity {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes change {
+    0%, 12.66%, 100% {
+        transform: translate3d(0, 0, 0);
+    }
+    16.66%, 29.32% {
+        transform: translate3d(0, -25%, 0);
+    }
+    33.32%, 45.98% {
+        transform: translate3d(0, -50%, 0);
+    }
+    49.98%, 62.64% {
+        transform: translate3d(0, -75%, 0);
+    }
+    66.64%, 79.3% {
+        transform: translate3d(0, -50%, 0);
+    }
+    83.3%, 95.96% {
+        transform: translate3d(0, -25%, 0);
+    }
+}
+
 section#presentation div#container-presentation div.right-pres h2 {
     margin-left: 20px;
     color: white
@@ -170,7 +242,6 @@ section#presentation div#container-presentation div.right-pres p strong {
 section#presentation div#container-presentation div.right-pres .container-btn {
     display: flex;
     justify-content: flex-end;
-    margin-left: 20px;
 }
 
 section#prestation {
@@ -182,7 +253,7 @@ section#prestation div.container-prestation {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    padding: 100px 0px;
+    padding:50px 0px 100px 0px;
 }
 
 section#prestation div.container-prestation .right-prestation {
@@ -783,6 +854,16 @@ section#responsive-apps {
     }
 }
 
+@media screen and (max-width:500px) {
+    section#presentation div#container-presentation div.right-pres h1 {
+        font-size: 30px;
+    }
+    .content .container .container-list .list-item a {
+        font-size: 25px;
+    }
+}
+
+
 @media screen and (max-width:425px) {
     section#presentation div#container-presentation {
         padding: 50px 0px;
@@ -820,4 +901,3 @@ section#responsive-apps {
 }
 
 @media screen and (max-width:320px) {}
-

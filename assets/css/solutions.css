@@ -54,7 +54,7 @@
 
  .solution .navigationSolution ul {
    display: flex;
-   justify-content: space-evenly;
+   justify-content: start;
    flex-direction: row;
  }
 

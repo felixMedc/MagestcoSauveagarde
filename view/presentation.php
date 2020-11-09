@@ -39,6 +39,7 @@
             </ul>
             <p> Et parce qu’une entreprise florissante est une entreprise qui prend soin de ses clients,
                 nous vous apportons nos connaissances dans le domaine de la relation client.</p>
+                
             <ul>
                 <h3>Nos Valeurs:</h3>
                 <li>L’écoute : Pour vous apporter une satisfaction optimale, nous prenons le temps de comprendre vos besoins.</li>

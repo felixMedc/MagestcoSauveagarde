@@ -47,6 +47,7 @@
 										<ul class="niveau2">
 											<li style = "background:#555555;"><a class = "testmenu" href="mooc.php?id=<?php echo $id; ?>">MOOC</a></li>
 											<li style = "background:#555555;"><a class = "testmenu" href="pia.php?id=<?php echo $id; ?>">PIA</a></li>
+											<li style = "background:#555555;"><a class = "testmenu" href="registre.php?id=<?php echo $id; ?>">Registre</a></li>
 										</ul>
 									</li>
 								</ul>

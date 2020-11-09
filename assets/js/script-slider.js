@@ -2,6 +2,14 @@ let spanBefore = document.getElementById('click-before');
 let spanAfter = document.getElementById('click-after');
 let divCommentary = document.getElementsByClassName('commentary-wrapper');
 let ElementNumber = 0;
+
+// simule le click d'une souris
+function clickButton() { 
+    document.getElementById('click-after').click(); 
+} 
+setInterval(clickButton, 3000); 
+
+
 if (window.innerWidth > 1024) {
 
     spanAfter.addEventListener('click', () => {

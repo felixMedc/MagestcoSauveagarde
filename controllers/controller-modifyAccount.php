@@ -5,35 +5,6 @@ require_once '../../models/model-Dashboard.php';
 $error = [];
 $id = $_GET['id'];
 
-// $Reg_Default = "/[a-zA-Z0-9ÀÁÂÃÄÅàáâãäåÒÓÔÕÖØòóôõöøÈÉÊËèéêëÇçÌÍÎÏìíîïÙÚÛÜùúûüÿÑñ\s]{2,30}$/";
-// $Reg_NumberPhone = "/(0)+[0-9]{1}( ){0,1}+[0-9]{2}( ){0,1}+[0-9]{2}( ){0,1}+[0-9]{2}( ){0,1}+[0-9]{2}/";
-// $Reg_TVA = "/^[A-Za-z]{2,4}(?=.{2,12}$)[-_\s0-9]*(?:[a-zA-Z][-_\s0-9]*){0,2}^/";
-// $Reg_APE = "/[0-9]{2}[ \.\-]?[0-9]{1} ?[a-zA-Z]/";
-// $Reg_CodePostal = "/^[0-9]{5}/";
-
-// if (!empty($_POST['Mel1Professionnel'])) {
-//     if (!filter_var($_POST['Mel1Professionnel'], FILTER_VALIDATE_EMAIL)) {
-//         $error['Mel1Professionnel'] = 'Mauvais Format';
-//     };
-// }
-// if (!empty($_POST['Mel2Professionnel'])) {
-//     if (!filter_var($_POST['Mel2Professionnel'], FILTER_VALIDATE_EMAIL)) {
-//         $error['Mel2Professionnel'] = 'Mauvais Format';
-//     };
-// }
-// if (!empty($_POST['Tel1Professionnel'])) {
-//     if (!preg_match($Reg_NumberPhone, $_POST['Tel1Professionnel'])) {
-//         $error['Tel1Professionnel'] = 'Mauvais Format';
-//     };
-// }
-// if (!empty($_POST['Tel2Professionnel'])) {
-//     if (!preg_match($Reg_NumberPhone, $_POST['Tel2Professionnel'])) {
-//         $error['Tel2Professionnel'] = 'Mauvais Format';
-//     };
-// }
-
-
-// Update pour informations compte
 if (isset($_POST['btnModifAccount']) && count($error) == 0) {
 
     $ModifAccount = new Dashboard();

@@ -21,29 +21,29 @@
 </head>
 
 <body>
+
 	<?php include 'include/include-navigation.php' ?>
+
 	<section id="presentation">
 		<div id="container-presentation">
 			<div class="left-pres">
 				<img src="assets/img/icone-presentation.svg" alt="">
 			</div>
 			<div class="right-pres">
-				<h1 class="title split-character">Libérez-vous du temps</h1>
-				<!-- <p>
-					Des solutions adaptées à la vie de votre entreprise : voici la promesse de <strong>MAGESTCO</strong><br>
-					Besoin d’un logiciel en saas, d’outils de pilotage, de connaitre et appliquer la législation dans votre société.
-				</p> -->
-				<div class="animation-content">
-					<div class="container-content">
-						<p class="container-text">
-							Voici la promesse de <strong>MAGESTCO</strong><br>
-						</p>
-						<ul class="content-list">
-							<li class="content-item">Solution saas</li>
-							<li class="content-item">Formation</li>
-							<li class="content-item">Outils de pilotage</li>
-							<li class="content-item">Formation</li>
-						</ul>
+				<div class="content">
+					<div class="container-text">
+						<h1>Libérez-vous du temps avec<br> Magestco :</h1>
+					</div>
+					<div class="container">
+						<div class="container-list">
+							<ul>
+								<li class="list-item"><a href="../view/solutions.php">Législation en entreprise</a></li>
+								<li class="list-item"><a href="../view/solutions.php">Formations</a></li>
+								<li class="list-item"><a href="../view/solutions.php">Outils sur mesures </a></li>
+								<li class="list-item"><a href="../view/solutions.php">Diagnostic numérique</a></li>
+
+							</ul>
+						</div>
 					</div>
 				</div>
 				<div class="container-btn">
@@ -64,7 +64,7 @@
 				<div class="groupBtn">
 					<a href="../view/solutions.php">Formations</a>
 					<a href="../view/solutions.php#GMAO">GMAO</a>
-					<a href="../view/solutions.php">Gestion Clients</a>
+					<a href="../view/solutions.php">Gestion administrative</a>
 				</div>
 			</div>
 			<div class="right-prestation">

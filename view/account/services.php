@@ -41,6 +41,17 @@
 				</tr>
 			</table>
 		</div>
+
+		<div style="float: left; padding: 20px;">
+			<table width="300" height="200" bgcolor="#999999">
+				<tr>
+					<td onclick="document.location.href = 'registre/index.php?id=<?php echo $id; ?>'" style="cursor:pointer;" title="Renseignez votre registre de données">
+						<center>
+							Renseignez votre registre de données
+					</td>
+				</tr>
+			</table>
+		</div>
 </body>
 
 </html>

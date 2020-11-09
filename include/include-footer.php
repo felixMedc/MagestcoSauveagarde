@@ -13,7 +13,7 @@
 					<li><a href="../view/login.php">Compte</a></li>
 				</ul>
 			<ul class="footer-mention">
-				<li><a href="../view/mention.php">Mentions légales</a></li>
+				<li><a href="../view/mentions.php">Mentions légales</a></li>
 			</ul>
 			</div>
 		</div>

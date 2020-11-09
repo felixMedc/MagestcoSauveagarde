@@ -10,11 +10,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/png" sizes="32x32" href="../../assets/img/favicon/favicon-32x32.png">
 	<link rel="stylesheet" href="../../assets/css/dashboard.css">
-	<!-- ressources chart.js -->
-	<link rel="stylesheet" type="text/css" href="../js/chart.js/samples/style.css"> <!-- samples -->
-	<script src="../../assets/js/chart.js/dist/Chart.min.js"></script> <!-- dist -->
-	<script src="../../assets/js/chart.js/samples/utils.js"></script> <!-- samples -->
-	<script src="../../assets/js/chart.js/samples/charts/area/analyser.js"></script><!-- samples > charts > area -->
+
+	<link rel="stylesheet" type="text/css" href="../js/chart.js/samples/style.css"> 
+	<script src="../../assets/js/chart.js/dist/Chart.min.js"></script> 
+	<script src="../../assets/js/chart.js/samples/utils.js"></script>
+	<script src="../../assets/js/chart.js/samples/charts/area/analyser.js"></script>
 
 </head>
 
@@ -82,8 +82,8 @@
 								<h5><?= $info['OffreProfessionnel'] ?> </h5>
 							<?php } ?>
 						<?php } ?>
-
-						<a href="modifcompte.php?id=<?= $id; ?>" id="btnModif">Modifier informations compte</a>
+						<?= $id ?>
+						<a href="modifcompte.php?id=<?= $id ?>" id="btnModif">Modifier informations compte</a>
 				</li>
 				<li>
 					<div>
