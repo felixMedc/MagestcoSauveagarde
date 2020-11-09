@@ -42,7 +42,22 @@
 								
 								<table width = "1000" border = "0">
 									<tr>
-										<td style = "text-align: left"></td>
+										<td style = "text-align: left">
+											<a href = "addpro.php?id=<?php echo $id; ?>" title = "Ajouter un professionnel"><img src = "../../../images/img_add.gif" height = "25"></a>
+											<?php
+											if($nblignes > 0)
+												{
+												if($nblignes == 1)
+													{
+													echo number_format($nblignes, $decimals = 0, $dec_point = ',', $thousands_sep = ' ')." professionnel";
+													}
+												else
+													{
+													echo number_format($nblignes, $decimals = 0, $dec_point = ',', $thousands_sep = ' ')." professionnels";
+													};
+												};
+											?>
+										</td>
 										<td style = "text-align: right">
 											<form method = "post" action = "rechercheprofessionnel.php?id=<?php echo $id; ?>">
 												<input type = "text" name = "recherche"> <input type = "submit" value = "Rechercher">

@@ -156,7 +156,7 @@
                                 </li>
                                 <li>Outils de pilotage : Les indicateurs, pourtant indispensables au contrôle de la bonne marche d'une entreprise, sont souvent négligés, voire inexistants.<br>
                                     A ce titre, nous définirons ensemble si les outils déjà en place sont suffisants et comment ils sont exploités.
-                                   
+
                                 </li>
                             </ul>
                         </div>
@@ -325,37 +325,44 @@
                         <li><button class="btnnav">Quoi</button></li>
                         <li><button class="btnnav">Pourquoi</button></li>
                         <li><button class="btnnav">Pour Qui</button></li>
-                        <li><button class="btnnav">Comment</button></li>
+                        <li style="display: none;">><button class="btnnav">Comment</button></li>
                         <li style="display: none;"><button class="btnnav">Combien</button></li>
                     </ul>
                 </div>
                 <div class="containerSolutionText">
                     <div class="solutionText">
                         <div class="containerAnimationText">
+                            <p>La législation évolue chaque année et la veille obligatoire pour permettre une application au plus juste des règles est chronophage. <br>
+                                Nos formations permettent d'être au plus près de la loi et d'appliquer dans son entreprise l'ensemble des process. <br>
+                                Nous adaptons donc nos programmes pour les faire évoluer constamment en fonction de l'actualité. </p>
+                        </div>
+                    </div>
+                    <div class="solutionText">
+                        <div class="containerAnimationText">
                             <p> Dans le cadre de la lutte contre la fraude fiscale, notamment la fraude à la TVA, l'état français a introduit une nouvelle loientrant en vigueur le 1er Janvier 2018. <br>
-                                Celle-ci stipule que les entreprises devront dorénavant utiliser des logiciels de facturation et des systèmes de caisse certifiés.</p>
-                        </div>
-                    </div>
-                    <div class="solutionText">
-                        <div class="containerAnimationText">
+                                Celle-ci stipule que les entreprises devront dorénavant utiliser des logiciels de facturation et des systèmes de caisse certifiés. </p>
                             <p>Le Règlement Général sur la Protection des Données du 25 mai 2018. <br>
-                                Son rôle est de :<br>
-                                Uniformiser la réglementation sur la protection des données au niveau européen,
-                                inciter les entreprises à faire leur auto-contrôle,
-                                renforcer le droit des personnes (droit à l'accès des données, droit à l'oubli, droit à la portabilité, transparence,etc)</p>
-                        </div>
-                    </div>
-                    <div class="solutionText">
-                        <div class="containerAnimationText">
-                            <p>La Loi PACTE a instauré de nombreux changements dans la vie des entreprises et micro-entreprises. <br>
+                                Son rôle est de : </p>
+                            <ul>
+                                <li>Uniformiser la réglementation sur la protection des données au niveau européen,</li>
+                                <li>inciter les entreprises à faire leur auto-contrôle,</li>
+                                <li>renforcer le droit des personnes (droit à l'accès des données, droit à l'oubli, droit à la portabilité, transparence,etc)</li>
+                            </ul>
+                            <p>
+                                La Loi PACTE a instauré de nombreux changements dans la vie des entreprises et micro-entreprises. <br>
                                 Des actions plus rapides et dématérialisés ont permis de réduire les temps de traitement de certaines démarches. <br>
-                                Réforme du commissariat aux comptes portée cette nouvelle loi.
-                            </p>
+                                Réforme du commissariat aux comptes portée cette nouvelle loi. <br>
+                                Obligations légales en tant que micro-entreprise ou TPE/PME, mentions légales en ligne.</p>
                         </div>
                     </div>
                     <div class="solutionText">
                         <div class="containerAnimationText">
-                            <p>Obligations légales en tant que micro-entreprise ou TPE/PME, mentions légales en ligne.</p>
+                            <p>Auto-entrepreneur, TPE, PME, Associations, professions libérales, commerçants</p>
+                        </div>
+                    </div>
+                    <div class="solutionText">
+                        <div class="containerAnimationText">
+
                         </div>
                     </div>
                     <div class="solutionText">
@@ -382,7 +389,7 @@
                         <li><button class="btnnav">Pourquoi</button></li>
                         <li><button class="btnnav">Pour Qui</button></li>
                         <li><button class="btnnav">Comment</button></li>
-                        <li style="display: none;"><button class="btnnav" >Combien</button></li>
+                        <li style="display: none;"><button class="btnnav">Combien</button></li>
                     </ul>
                 </div>
                 <div class="containerSolutionText">

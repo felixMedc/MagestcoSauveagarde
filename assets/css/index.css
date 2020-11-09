@@ -267,7 +267,7 @@ section#prestation div.container-prestation div.listmodule .module {
 }
 
 section#prestation div.container-prestation div.listmodule .module:nth-child(1)::before {
-    content: url('../img/orateur.svg');
+    content: url('../img/formation.svg');
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -279,7 +279,7 @@ section#prestation div.container-prestation div.listmodule .module:nth-child(1):
 }
 
 section#prestation div.container-prestation div.listmodule .module:nth-child(2)::before {
-    content: url('../img/tools.svg');
+    content: url('../img/formationsolution.svg');
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -291,7 +291,7 @@ section#prestation div.container-prestation div.listmodule .module:nth-child(2):
 }
 
 section#prestation div.container-prestation div.listmodule .module:nth-child(3)::before {
-    content: url('../img/formationsolution.svg');
+    content: url('../img/tools.svg');
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -820,3 +820,4 @@ section#responsive-apps {
 }
 
 @media screen and (max-width:320px) {}
+

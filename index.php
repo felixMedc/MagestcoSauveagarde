@@ -29,10 +29,23 @@
 			</div>
 			<div class="right-pres">
 				<h1 class="title split-character">Libérez-vous du temps</h1>
-				<p>
+				<!-- <p>
 					Des solutions adaptées à la vie de votre entreprise : voici la promesse de <strong>MAGESTCO</strong><br>
 					Besoin d’un logiciel en saas, d’outils de pilotage, de connaitre et appliquer la législation dans votre société.
-				</p>
+				</p> -->
+				<div class="animation-content">
+					<div class="container-content">
+						<p class="container-text">
+							Voici la promesse de <strong>MAGESTCO</strong><br>
+						</p>
+						<ul class="content-list">
+							<li class="content-item">Solution saas</li>
+							<li class="content-item">Formation</li>
+							<li class="content-item">Outils de pilotage</li>
+							<li class="content-item">Formation</li>
+						</ul>
+					</div>
+				</div>
 				<div class="container-btn">
 					<a href="view/presentation.php" class="btn">Qui sommes nous ? </a>
 				</div>
@@ -233,11 +246,11 @@
 
 	<script>
 		(function() {
-			var elements, newContent = "";
+			let elements, newContent = "";
 			elements = document.getElementsByClassName('split-character');
-			for (var element = 0; element < elements.length; ++element) {
+			for (let element = 0; element < elements.length; ++element) {
 				newContent += "<span>"
-				for (var character = 0; character < elements[element].innerText.length; character++) {
+				for (let character = 0; character < elements[element].innerText.length; character++) {
 					if (elements[element].innerText[character] !== " ") {
 						newContent += "<span style='animation-delay: " + 0.050 * character + "s'>" + elements[element].innerText[character] + "</span>";
 					} else {

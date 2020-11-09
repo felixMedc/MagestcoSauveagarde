@@ -40,8 +40,6 @@
 										<a class = "testmenu" href="#">Utilisateurs</a>
 										<ul class="niveau2">
 											<li style = "background:#555555;"><a class = "testmenu" href="professionnels.php?id=<?php echo $id; ?>">Listing professionnels</a></li>
-											<li style = "background:#555555;"><a class = "testmenu" href="promagestco.php?id=<?php echo $id; ?>">Listing professionnels MAGESTCO</a></li>
-											<li style = "background:#555555;"><a class = "testmenu" href="promedc.php?id=<?php echo $id; ?>">Listing importé de MEDC</a></li>
 										</ul>
 									</li>
 									<li class = "titre" style = "background-color: #666666; background-image:-webkit-linear-gradient(top, #666666 0%, #555555 100%); background-image:linear-gradient(to bottom, #666666 0%, #555555 100%);">
